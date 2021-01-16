@@ -296,5 +296,3 @@ map-color-geom_sf
 projection-and-extent-coord_sf
 scale-bar-and-north-arrow-package-ggspatial
 country-names-and-other-names-geom_text-and-annotate
-axis-range
-crop

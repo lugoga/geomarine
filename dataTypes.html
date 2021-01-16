@@ -157,7 +157,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#preface"><i class="fa fa-check"></i>Preface</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#what-will-you-learn"><i class="fa fa-check"></i>What will you learn?</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#audience"><i class="fa fa-check"></i>Audience</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#why-read-this-book"><i class="fa fa-check"></i>Why read this book?</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#acknowledgments"><i class="fa fa-check"></i>Acknowledgments</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#how-this-book-came-to-being"><i class="fa fa-check"></i>How this book came to being</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#about-the-author"><i class="fa fa-check"></i>About the author</a></li>
@@ -695,12 +694,12 @@ Figure 3.2: Barplot of grouped income
 <p>The central limit theorem that ensure the data is normal distributed is well known to statistician. R has a <code>rnorm()</code> function which makes vector of normal distributed values. For example to generate a vector of 40 sea surface temperature values from a normal distribution with a <code>mean</code> of 25, and <code>standard deviation</code> of 1.58, we simply type this expression in console;</p>
 <div class="sourceCode" id="cb70"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb70-1"><a href="dataTypes.html#cb70-1"></a>sst =<span class="st"> </span><span class="kw">rnorm</span>(<span class="dt">n =</span> <span class="dv">40</span>, <span class="dt">mean =</span> <span class="dv">25</span>,<span class="dt">sd =</span> <span class="fl">1.58</span>)</span>
 <span id="cb70-2"><a href="dataTypes.html#cb70-2"></a>sst</span></code></pre></div>
-<pre><code> [1] 26.74052 23.16677 27.33404 28.10083 26.02447 25.91474 24.54737
- [8] 27.68260 26.82767 24.86016 28.12906 25.70828 28.16513 24.98001
-[15] 24.51113 23.04258 25.76677 25.94415 25.02947 25.15996 25.33161
-[22] 24.50657 22.82419 26.81584 25.13796 22.01263 24.61891 24.59988
-[29] 27.13341 24.54938 25.27866 27.59556 27.69886 24.52232 24.81600
-[36] 23.73775 25.67260 26.43920 29.85386 25.01997</code></pre>
+<pre><code> [1] 25.23389 24.96813 26.71007 25.80946 26.82065 25.89912 23.17208
+ [8] 24.50993 26.38449 24.57352 23.42679 26.39705 26.98290 26.05174
+[15] 25.18575 24.60113 27.02279 24.24007 24.49849 27.90976 24.15330
+[22] 25.53116 27.20587 25.56899 23.46433 25.88342 23.96367 23.83687
+[29] 22.22920 25.59258 24.16271 22.27064 25.00596 27.01087 25.33010
+[36] 25.90666 26.00080 25.60744 25.13125 26.19886</code></pre>
 </div>
 <div id="rounding-off-numbers" class="section level3" number="3.2.12">
 <h3><span class="header-section-number">3.2.12</span> Rounding off numbers</h3>
@@ -708,8 +707,8 @@ Figure 3.2: Barplot of grouped income
 <div class="sourceCode" id="cb72"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb72-1"><a href="dataTypes.html#cb72-1"></a><span class="kw">require</span>(magrittr)</span>
 <span id="cb72-2"><a href="dataTypes.html#cb72-2"></a>chl =<span class="st"> </span><span class="kw">rnorm</span>(<span class="dt">n =</span> <span class="dv">20</span>, <span class="dt">mean =</span> <span class="fl">.55</span>, <span class="dt">sd =</span> <span class="fl">.2</span>)</span>
 <span id="cb72-3"><a href="dataTypes.html#cb72-3"></a>chl <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">round</span>(<span class="dt">digits =</span> <span class="dv">2</span>)</span></code></pre></div>
-<pre><code> [1] 0.44 0.47 0.54 0.51 0.59 0.44 0.55 0.81 0.48 0.62 0.38 0.38 0.73 0.55
-[15] 0.85 0.31 0.60 0.60 0.78 0.66</code></pre>
+<pre><code> [1] 0.76 0.65 0.83 0.74 0.60 0.41 0.48 0.76 0.62 0.70 0.42 0.28 0.77 0.14
+[15] 0.14 0.34 0.50 0.29 0.55 0.33</code></pre>
 </div>
 </div>
 <div id="data-frame" class="section level2" number="3.3">
@@ -1380,15 +1379,15 @@ Distance
 <pre><code>[1] FALSE</code></pre>
 <pre><code>[1] TRUE</code></pre>
 <div class="sourceCode" id="cb96"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb96-1"><a href="dataTypes.html#cb96-1"></a>sst</span></code></pre></div>
-<pre><code> [1] 20.28147 23.11403 25.49417 30.29259 25.78497 21.71495 25.86793
- [8] 26.24972 27.18975 26.82520 22.01051 24.94265 27.37821 23.75495
-[15] 25.27877 20.75809 25.00343 23.16853 29.85703 26.58875 22.19188
-[22] 25.16227 23.43080 24.31125 20.79362 21.15755 22.07255 29.19220
-[29] 24.82905 28.57241 22.23951 20.58312 24.96047 25.32166 25.19751
-[36] 25.53538 26.82017 26.46073 25.05709 21.60916 29.04161 24.49218
-[43] 19.16958 22.36487 26.11861 20.53409 18.16717 27.04006 20.08861
-[50] 26.23460 24.89403 24.47973 23.05748 21.06814 26.31376 29.24766
-[57] 25.20395 27.10091 25.75666 26.00189</code></pre>
+<pre><code> [1] 28.36538 26.40237 26.70726 26.48668 28.75234 24.08735 26.26586
+ [8] 21.81930 22.03486 25.84550 25.44008 25.97649 28.65063 28.78858
+[15] 23.09222 26.33889 31.12457 30.10335 22.20530 22.47409 22.33131
+[22] 21.84610 22.14400 25.26199 29.54544 23.72187 28.03124 25.47070
+[29] 21.91455 20.42472 24.64612 20.46856 22.94202 22.85599 27.94189
+[36] 23.18740 18.98373 28.93042 26.30203 23.21908 26.88705 26.42674
+[43] 28.85799 22.10885 26.48609 22.90642 24.14437 22.60653 23.04779
+[50] 22.19297 25.19992 22.24401 20.25282 32.20772 26.91404 21.59206
+[57] 21.78121 21.48776 23.95051 22.69560</code></pre>
 <p>We can check whether the dimension we just defined while creating this matrix is correct. This is done with the <code>dim()</code> function from base R.</p>
 <div class="sourceCode" id="cb98"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb98-1"><a href="dataTypes.html#cb98-1"></a><span class="kw">dim</span>(sst.matrix)</span></code></pre></div>
 <pre><code>[1] 12  5</code></pre>
@@ -1403,18 +1402,18 @@ Distance
 <span id="cb101-2"><a href="dataTypes.html#cb101-2"></a><span class="kw">colnames</span>(sst.matrix) =<span class="st"> </span>years</span>
 <span id="cb101-3"><a href="dataTypes.html#cb101-3"></a>sst.matrix</span></code></pre></div>
 <pre><code>          2014     2015     2016     2017     2018
- [1,] 20.28147 27.37821 20.79362 26.82017 20.08861
- [2,] 23.11403 23.75495 21.15755 26.46073 26.23460
- [3,] 25.49417 25.27877 22.07255 25.05709 24.89403
- [4,] 30.29259 20.75809 29.19220 21.60916 24.47973
- [5,] 25.78497 25.00343 24.82905 29.04161 23.05748
- [6,] 21.71495 23.16853 28.57241 24.49218 21.06814
- [7,] 25.86793 29.85703 22.23951 19.16958 26.31376
- [8,] 26.24972 26.58875 20.58312 22.36487 29.24766
- [9,] 27.18975 22.19188 24.96047 26.11861 25.20395
-[10,] 26.82520 25.16227 25.32166 20.53409 27.10091
-[11,] 22.01051 23.43080 25.19751 18.16717 25.75666
-[12,] 24.94265 24.31125 25.53538 27.04006 26.00189</code></pre>
+ [1,] 28.36538 28.65063 29.54544 18.98373 23.04779
+ [2,] 26.40237 28.78858 23.72187 28.93042 22.19297
+ [3,] 26.70726 23.09222 28.03124 26.30203 25.19992
+ [4,] 26.48668 26.33889 25.47070 23.21908 22.24401
+ [5,] 28.75234 31.12457 21.91455 26.88705 20.25282
+ [6,] 24.08735 30.10335 20.42472 26.42674 32.20772
+ [7,] 26.26586 22.20530 24.64612 28.85799 26.91404
+ [8,] 21.81930 22.47409 20.46856 22.10885 21.59206
+ [9,] 22.03486 22.33131 22.94202 26.48609 21.78121
+[10,] 25.84550 21.84610 22.85599 22.90642 21.48776
+[11,] 25.44008 22.14400 27.94189 24.14437 23.95051
+[12,] 25.97649 25.26199 23.18740 22.60653 22.69560</code></pre>
 <p>and add the month for rows, which is January to December. Now the matrix has names for the rows—records and for columns—variables</p>
 <div class="sourceCode" id="cb103"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb103-1"><a href="dataTypes.html#cb103-1"></a>months =<span class="st"> </span><span class="kw">seq</span>(<span class="dt">from =</span> lubridate<span class="op">::</span><span class="kw">dmy</span>(<span class="dv">010115</span>), <span class="dt">to =</span> lubridate<span class="op">::</span><span class="kw">dmy</span>(<span class="dv">311215</span>), </span>
 <span id="cb103-2"><a href="dataTypes.html#cb103-2"></a>             <span class="dt">by =</span> <span class="st">&quot;month&quot;</span>) <span class="op">%&gt;%</span><span class="st"> </span>lubridate<span class="op">::</span><span class="kw">month</span>(<span class="dt">abbr =</span> <span class="ot">TRUE</span>, </span>
@@ -1422,18 +1421,18 @@ Distance
 <span id="cb103-4"><a href="dataTypes.html#cb103-4"></a><span class="kw">rownames</span>(sst.matrix) =<span class="st"> </span>months</span>
 <span id="cb103-5"><a href="dataTypes.html#cb103-5"></a>sst.matrix</span></code></pre></div>
 <pre><code>        2014     2015     2016     2017     2018
-Jan 20.28147 27.37821 20.79362 26.82017 20.08861
-Feb 23.11403 23.75495 21.15755 26.46073 26.23460
-Mar 25.49417 25.27877 22.07255 25.05709 24.89403
-Apr 30.29259 20.75809 29.19220 21.60916 24.47973
-May 25.78497 25.00343 24.82905 29.04161 23.05748
-Jun 21.71495 23.16853 28.57241 24.49218 21.06814
-Jul 25.86793 29.85703 22.23951 19.16958 26.31376
-Aug 26.24972 26.58875 20.58312 22.36487 29.24766
-Sep 27.18975 22.19188 24.96047 26.11861 25.20395
-Oct 26.82520 25.16227 25.32166 20.53409 27.10091
-Nov 22.01051 23.43080 25.19751 18.16717 25.75666
-Dec 24.94265 24.31125 25.53538 27.04006 26.00189</code></pre>
+Jan 28.36538 28.65063 29.54544 18.98373 23.04779
+Feb 26.40237 28.78858 23.72187 28.93042 22.19297
+Mar 26.70726 23.09222 28.03124 26.30203 25.19992
+Apr 26.48668 26.33889 25.47070 23.21908 22.24401
+May 28.75234 31.12457 21.91455 26.88705 20.25282
+Jun 24.08735 30.10335 20.42472 26.42674 32.20772
+Jul 26.26586 22.20530 24.64612 28.85799 26.91404
+Aug 21.81930 22.47409 20.46856 22.10885 21.59206
+Sep 22.03486 22.33131 22.94202 26.48609 21.78121
+Oct 25.84550 21.84610 22.85599 22.90642 21.48776
+Nov 25.44008 22.14400 27.94189 24.14437 23.95051
+Dec 25.97649 25.26199 23.18740 22.60653 22.69560</code></pre>
 </div>
 </div>
 <div id="arrays" class="section level2" number="3.5">
@@ -1442,36 +1441,36 @@ Dec 24.94265 24.31125 25.53538 27.04006 26.00189</code></pre>
 <pre><code>, , 1
 
          [,1]     [,2]     [,3]     [,4]     [,5]
-[1,] 20.28147 30.29259 25.86793 26.82520 27.37821
-[2,] 23.11403 25.78497 26.24972 22.01051 23.75495
-[3,] 25.49417 21.71495 27.18975 24.94265 25.27877
+[1,] 28.36538 26.48668 26.26586 25.84550 28.65063
+[2,] 26.40237 28.75234 21.81930 25.44008 28.78858
+[3,] 26.70726 24.08735 22.03486 25.97649 23.09222
 
 , , 2
 
          [,1]     [,2]     [,3]     [,4]     [,5]
-[1,] 20.75809 29.85703 25.16227 20.79362 29.19220
-[2,] 25.00343 26.58875 23.43080 21.15755 24.82905
-[3,] 23.16853 22.19188 24.31125 22.07255 28.57241
+[1,] 26.33889 22.20530 21.84610 29.54544 25.47070
+[2,] 31.12457 22.47409 22.14400 23.72187 21.91455
+[3,] 30.10335 22.33131 25.26199 28.03124 20.42472
 
 , , 3
 
          [,1]     [,2]     [,3]     [,4]     [,5]
-[1,] 22.23951 25.32166 26.82017 21.60916 19.16958
-[2,] 20.58312 25.19751 26.46073 29.04161 22.36487
-[3,] 24.96047 25.53538 25.05709 24.49218 26.11861
+[1,] 24.64612 22.85599 18.98373 23.21908 28.85799
+[2,] 20.46856 27.94189 28.93042 26.88705 22.10885
+[3,] 22.94202 23.18740 26.30203 26.42674 26.48609
 
 , , 4
 
          [,1]     [,2]     [,3]     [,4]     [,5]
-[1,] 20.53409 20.08861 24.47973 26.31376 27.10091
-[2,] 18.16717 26.23460 23.05748 29.24766 25.75666
-[3,] 27.04006 24.89403 21.06814 25.20395 26.00189</code></pre>
+[1,] 22.90642 23.04779 22.24401 26.91404 21.48776
+[2,] 24.14437 22.19297 20.25282 21.59206 23.95051
+[3,] 22.60653 25.19992 32.20772 21.78121 22.69560</code></pre>
 <p>This can be done with the indexing. For example, in the <code>sst.matrix</code> we just create, it has twelve rows representing monthly average and five columns representing years. We then obtain data for the six year and we want to add it into the matrix. Simply done with indexing</p>
 <div class="sourceCode" id="cb107"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb107-1"><a href="dataTypes.html#cb107-1"></a>sst.matrix[<span class="dv">1</span><span class="op">:</span><span class="dv">12</span>,<span class="dv">5</span>]</span></code></pre></div>
 <pre><code>     Jan      Feb      Mar      Apr      May      Jun      Jul      Aug 
-20.08861 26.23460 24.89403 24.47973 23.05748 21.06814 26.31376 29.24766 
+23.04779 22.19297 25.19992 22.24401 20.25282 32.20772 26.91404 21.59206 
      Sep      Oct      Nov      Dec 
-25.20395 27.10091 25.75666 26.00189 </code></pre>
+21.78121 21.48776 23.95051 22.69560 </code></pre>
 </div>
 <div id="dealing-with-misiing-values" class="section level2" number="3.6">
 <h2><span class="header-section-number">3.6</span> Dealing with Misiing Values</h2>

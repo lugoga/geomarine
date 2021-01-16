@@ -52,6 +52,23 @@
 
 
 <script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<script src="libs/kePrint-0.0.1/kePrint.js"></script>
+<link href="libs/lightable-0.0.1/lightable.css" rel="stylesheet" />
+<script src="libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<link href="libs/leaflet-1.3.1/leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-1.3.1/leaflet.js"></script>
+<link href="libs/leafletfix-1.0.0/leafletfix.css" rel="stylesheet" />
+<script src="libs/Proj4Leaflet-1.0.1/proj4-compressed.js"></script>
+<script src="libs/Proj4Leaflet-1.0.1/proj4leaflet.js"></script>
+<link href="libs/rstudio_leaflet-1.3.1/rstudio_leaflet.css" rel="stylesheet" />
+<script src="libs/leaflet-binding-2.0.3/leaflet.js"></script>
+<link href="libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="libs/datatables-binding-0.16/datatables.js"></script>
+<link href="libs/dt-core-1.10.20/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="libs/dt-core-1.10.20/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="libs/dt-core-1.10.20/js/jquery.dataTables.min.js"></script>
+<link href="libs/crosstalk-1.1.0.1/css/crosstalk.css" rel="stylesheet" />
+<script src="libs/crosstalk-1.1.0.1/js/crosstalk.min.js"></script>
 
 
 <style type="text/css">
@@ -140,7 +157,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#preface"><i class="fa fa-check"></i>Preface</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#what-will-you-learn"><i class="fa fa-check"></i>What will you learn?</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#audience"><i class="fa fa-check"></i>Audience</a></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html#why-read-this-book"><i class="fa fa-check"></i>Why read this book?</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#acknowledgments"><i class="fa fa-check"></i>Acknowledgments</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#how-this-book-came-to-being"><i class="fa fa-check"></i>How this book came to being</a></li>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#about-the-author"><i class="fa fa-check"></i>About the author</a></li>
@@ -312,11 +328,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="8.2.2" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#shape"><i class="fa fa-check"></i><b>8.2.2</b> shape</a></li>
 </ul></li>
 <li class="chapter" data-level="8.3" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#axis-and-labels"><i class="fa fa-check"></i><b>8.3</b> Axis and labels</a></li>
-<li class="chapter" data-level="8.4" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#axis-range"><i class="fa fa-check"></i><b>8.4</b> Axis Range</a></li>
-<li class="chapter" data-level="8.5" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#text-annotaion"><i class="fa fa-check"></i><b>8.5</b> Text annotaion</a></li>
-<li class="chapter" data-level="8.6" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#scales"><i class="fa fa-check"></i><b>8.6</b> Scales</a></li>
-<li class="chapter" data-level="8.7" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#guides-1"><i class="fa fa-check"></i><b>8.7</b> Guides</a></li>
-<li class="chapter" data-level="8.8" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#themes"><i class="fa fa-check"></i><b>8.8</b> Themes</a></li>
+<li class="chapter" data-level="8.4" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#text-annotaion"><i class="fa fa-check"></i><b>8.4</b> Text annotaion</a></li>
+<li class="chapter" data-level="8.5" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#scales"><i class="fa fa-check"></i><b>8.5</b> Scales</a></li>
+<li class="chapter" data-level="8.6" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#guides-1"><i class="fa fa-check"></i><b>8.6</b> Guides</a></li>
+<li class="chapter" data-level="8.7" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#themes"><i class="fa fa-check"></i><b>8.7</b> Themes</a></li>
 </ul></li>
 <li class="chapter" data-level="9" data-path="feature.html"><a href="feature.html"><i class="fa fa-check"></i><b>9</b> Feature Representation</a>
 <ul>
@@ -519,7 +534,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div id="welcome" class="section level1 unnumbered" number="">
 <h1>Welcome</h1>
 <p>This is the online home of <em>Dealing with spatial data for Coastal and Marine Environment in R</em>, a book on analysis and visualization of spatial data.</p>
-<p><a href="https://www.crcpress.com/9781138304512"><img src="images/coverPage.svg" width="250" height="375" alt="The book cover" align="right" style="margin: 0 1em 0 1em" /></a></p>
+<p><a href="https://lugoga.github.io/geomarine"><img src="images/coverPage.svg" width="250" height="375" alt="The book cover" align="right" style="margin: 0 1em 0 1em" /></a></p>
 <p><strong>Note</strong>: This book is now available online at <a href="https://lugoga.github.io/geomarine/">this link</a>.</p>
 <p>Inspired by <a href="https://github.com/rstudio/bookdown"><strong>bookdown</strong></a> and the Free and Open Source Software for Geospatial (<a href="http://foss4g.org/">FOSS4G</a>) movement, this book is open source.
 This ensures its contents are reproducible and publicly accessible for people worldwide.</p>
@@ -547,13 +562,6 @@ This ensures its contents are reproducible and publicly accessible for people wo
 <h2>Audience</h2>
 <p>This book is primarily aimed at aquatic ecology, oceanography, limnology, and other fields that works with spatial and temporal aquatic and environmental data. Moreover, since the methods discussed in the book are applicable not only to aquatic data but also to many other fields that deal with spatial data, the book is also suitable for researchers and practitioners of other areas wishing to learn how to model and visualize this type of data. The book is also appropriate for postgraduate students of statistics and oceanography or other subjects with a strong statistical background.</p>
 </div>
-<div id="why-read-this-book" class="section level2 unnumbered" number="">
-<h2>Why read this book?</h2>
-<p>Geospatial health data are essential to inform public health and policy across high-, middle-, and low-income countries. These data can be used to understand the burden and geographic patterns of disease, and can help in the development of hypotheses that relate disease risk to potential demographic and environmental factors.</p>
-<p>This book shows how to apply cutting-edge statistical spatial and spatio-temporal methods on disease data to produce disease risk maps and quantify risk factors. Specifically, the book shows how to develop Bayesian hierarchical models and apply computational approaches such as INLA and SPDE to analyze data collected in areas (e.g., counties or provinces) and at particular locations by disease registries, national and regional institutes of statistics, and other organizations. These approaches allow to quantify the disease burden, understand geographic and temporal patterns, identify risk factors, and measure inequalities.</p>
-<p>This book also provides the necessary tools to design and develop web-based digital applications such as disease atlases that incorporate interactive visualizations to make disease risk estimates available and accessible to a wide audience, including policymakers, researchers, health professionals, and the general public. These tools allow to explore vast amounts of data in an interactive and approachable way by means of maps, time plots, tables and other visualizations that support interactive filtering and zooming over different regions and periods of time to display the information of interest. These tools are beneficial when trying to identify information for specific regions, compare risks between populations, and understand how disease patterns have changed over time.</p>
-<p>The statistical methods and visualization techniques presented in this book are valuable to analyze a wide range of conditions including infectious diseases, non-communicable diseases, injuries, and health-related behaviors, and provide policymakers with actionable information for the development and implementation of appropriate population health policies.</p>
-</div>
 <div id="acknowledgments" class="section level2 unnumbered" number="">
 <h2>Acknowledgments</h2>
 <p>R represents an excellent tool for the analysis of spatial data. I would like to thank the R community and the developers and contributors of open-source software that enable reproducible data analysis. In particular, I would like to thank the developers of spatial packages, and the authors of <strong>ggplot2</strong> <span class="citation">(Wickham <a href="#ref-ggplot" role="doc-biblioref">2016</a>)</span> and <strong>sf</strong> <span class="citation">(Pebesma <a href="#ref-sf" role="doc-biblioref">2018</a>)</span> for the great function they created for spatial and non-spatial data analysis and visualization. I would also like to thank the developers of <strong>leaflet</strong> <span class="citation">(Cheng, Karambelkar, and Xie <a href="#ref-leaflet" role="doc-biblioref">2019</a>)</span> and <strong>tmpa</strong> <span class="citation">(Tennekes <a href="#ref-tmap" role="doc-biblioref">2018</a>)</span> packages, which enable interactive mapping and visualization in R. Also and the creation of <strong>Shiny</strong> <span class="citation">(Chang et al. <a href="#ref-shiny" role="doc-biblioref">2020</a>)</span>, a package that allows creation of web applications that make a difference on how information is distributed and insights are communicated.</p>
@@ -561,7 +569,7 @@ This ensures its contents are reproducible and publicly accessible for people wo
 </div>
 <div id="how-this-book-came-to-being" class="section level2 unnumbered" number="">
 <h2>How this book came to being</h2>
-<p>The book was prepared and using R <span class="citation">(R Core Team <a href="#ref-R-base" role="doc-biblioref">2020</a>)</span> and bookdown <span class="citation">(Xie <a href="#ref-R-bookdown" role="doc-biblioref">2020</a>)</span>, a package based on Markdown syntax <span class="citation">(Allaire et al. <a href="#ref-R-markdown" role="doc-biblioref">2019</a>)</span> in Rstudio. Several other packages were also used for various task during book development. Diagrams were plotted using <strong>ggplot2</strong> <span class="citation">(Wickham et al. <a href="#ref-R-ggplot2" role="doc-biblioref">2020</a>)</span> and <strong>metR</strong> <span class="citation">(Campitelli <a href="#ref-R-metR" role="doc-biblioref">2020</a>)</span> packages. The kableExtra package was used for making nicer table <span class="citation">(Zhu <a href="#ref-R-kableExtra" role="doc-biblioref">2020</a>)</span>. Basemaps data were obtained from <strong>spData</strong> <span class="citation">(Bivand, Nowosad, and Lovelace <a href="#ref-R-spData" role="doc-biblioref">2020</a>)</span>. Demographic and economic data like population and Gross domestic Product from World Bank database were obtained through <strong>wbstats</strong> <span class="citation">(Piburn <a href="#ref-R-wbstats" role="doc-biblioref">2020</a>)</span>. Fish landings catches were obtained from <strong>rfisheries</strong> <span class="citation">(Ram, Boettiger, and Dyck <a href="#ref-R-rfisheries" role="doc-biblioref">2016</a>)</span>. Oceanographic data were obtained from various sources and color used for mapping their distribution were obtained from <strong>oce</strong> package <span class="citation">(Kelley and Richards <a href="#ref-R-oce" role="doc-biblioref">2020</a>)</span>. The <strong>webex</strong> package was used to create the interactive web exercises <span class="citation">(Barr and DeBruine <a href="#ref-R-webex" role="doc-biblioref">2019</a>)</span>. All of this packages and software are free and open source.</p>
+<p>The book was prepared and using R <span class="citation">(R Core Team <a href="#ref-R-base" role="doc-biblioref">2020</a>)</span> and bookdown <span class="citation">(Xie <a href="#ref-R-bookdown" role="doc-biblioref">2020</a>)</span>, a package based on Markdown syntax <span class="citation">(Allaire et al. <a href="#ref-R-markdown" role="doc-biblioref">2019</a>)</span> in Rstudio. Several other packages were also used for various task during book development. Diagrams were plotted using <strong>ggplot2</strong> <span class="citation">(Wickham, Chang, et al. <a href="#ref-R-ggplot2" role="doc-biblioref">2020</a>)</span> and <strong>metR</strong> <span class="citation">(Campitelli <a href="#ref-R-metR" role="doc-biblioref">2020</a>)</span> packages. The kableExtra package was used for making nicer table <span class="citation">(Zhu <a href="#ref-R-kableExtra" role="doc-biblioref">2020</a>)</span>. Basemaps data were obtained from <strong>spData</strong> <span class="citation">(Bivand, Nowosad, and Lovelace <a href="#ref-R-spData" role="doc-biblioref">2020</a>)</span>. Demographic and economic data like population and Gross domestic Product from World Bank database were obtained through <strong>wbstats</strong> <span class="citation">(Piburn <a href="#ref-R-wbstats" role="doc-biblioref">2020</a>)</span>. Fish landings catches were obtained from <strong>rfisheries</strong> <span class="citation">(Ram, Boettiger, and Dyck <a href="#ref-R-rfisheries" role="doc-biblioref">2016</a>)</span>. Oceanographic data were obtained from various sources and color used for mapping their distribution were obtained from <strong>oce</strong> package <span class="citation">(Kelley and Richards <a href="#ref-R-oce" role="doc-biblioref">2020</a>)</span>. The <strong>webex</strong> package was used to create the interactive web exercises <span class="citation">(Barr and DeBruine <a href="#ref-R-webex" role="doc-biblioref">2019</a>)</span>. All of this packages and software are free and open source.</p>
 </div>
 <div id="about-the-author" class="section level2 unnumbered" number="">
 <h2>About the author</h2>
@@ -700,6 +708,20 @@ gitbook.start({
 });
 </script>
 
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
 </body>
 
 </html>
