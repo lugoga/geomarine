@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 10 Working with vector data in R | Practical Spatial Data</title>
+  <title>Chapter 11 Working with vector data in R | Practical Spatial Data</title>
   <meta name="description" content="Dealing with spatial data for Coastal and Marine Environment in R is for people who want to analyze, visualize and model geographic data with open source software. It is based on R, a statistical programming language that has powerful data processing, manipulating, and visualizing spatial data. The book equips you with the knowledge and skills to tackle a wide range of issues manifested in geographic data, including those with scientific, societal, and environmental implications. This book will interest people from many backgrounds, especially Geographic Information Systems (GIS), who are interested in applying their domain-specific knowledge in a powerful open source language for data science, and R users interested in extending their skills to handle spatial data." />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 10 Working with vector data in R | Practical Spatial Data" />
+  <meta property="og:title" content="Chapter 11 Working with vector data in R | Practical Spatial Data" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://lugoga.github.io/geomarine/" />
   <meta property="og:image" content="https://lugoga.github.io/geomarine/images/coverPage.svg" />
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="lugoga/geomarine" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 10 Working with vector data in R | Practical Spatial Data" />
+  <meta name="twitter:title" content="Chapter 11 Working with vector data in R | Practical Spatial Data" />
   
   <meta name="twitter:description" content="Dealing with spatial data for Coastal and Marine Environment in R is for people who want to analyze, visualize and model geographic data with open source software. It is based on R, a statistical programming language that has powerful data processing, manipulating, and visualizing spatial data. The book equips you with the knowledge and skills to tackle a wide range of issues manifested in geographic data, including those with scientific, societal, and environmental implications. This book will interest people from many backgrounds, especially Geographic Information Systems (GIS), who are interested in applying their domain-specific knowledge in a powerful open source language for data science, and R users interested in extending their skills to handle spatial data." />
   <meta name="twitter:image" content="https://lugoga.github.io/geomarine/images/coverPage.svg" />
@@ -316,152 +316,173 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="7.15" data-path="plotting-in-r-with-ggplot2.html"><a href="plotting-in-r-with-ggplot2.html#varying-fill-colors-along-the-x-axis"><i class="fa fa-check"></i><b>7.15</b> Varying fill colors along the x axis</a></li>
 <li class="chapter" data-level="7.16" data-path="plotting-in-r-with-ggplot2.html"><a href="plotting-in-r-with-ggplot2.html#metr"><i class="fa fa-check"></i><b>7.16</b> metR</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="feature.html"><a href="feature.html"><i class="fa fa-check"></i><b>8</b> Feature Representation</a>
+<li class="chapter" data-level="8" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html"><i class="fa fa-check"></i><b>8</b> A grammar for graphics</a>
 <ul>
-<li class="chapter" data-level="8.1" data-path="feature.html"><a href="feature.html#vector"><i class="fa fa-check"></i><b>8.1</b> Vector</a>
+<li class="chapter" data-level="8.1" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#geoms"><i class="fa fa-check"></i><b>8.1</b> geoms</a>
 <ul>
-<li class="chapter" data-level="8.1.1" data-path="feature.html"><a href="feature.html#a-point"><i class="fa fa-check"></i><b>8.1.1</b> A point</a></li>
-<li class="chapter" data-level="8.1.2" data-path="feature.html"><a href="feature.html#polyline"><i class="fa fa-check"></i><b>8.1.2</b> Polyline</a></li>
-<li class="chapter" data-level="8.1.3" data-path="feature.html"><a href="feature.html#polygon"><i class="fa fa-check"></i><b>8.1.3</b> Polygon</a></li>
+<li class="chapter" data-level="8.1.1" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#regression-line"><i class="fa fa-check"></i><b>8.1.1</b> Regression Line</a></li>
+<li class="chapter" data-level="8.1.2" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#horizontal-vertical-lines"><i class="fa fa-check"></i><b>8.1.2</b> Horizontal/ vertical lines</a></li>
 </ul></li>
-<li class="chapter" data-level="8.2" data-path="feature.html"><a href="feature.html#raster"><i class="fa fa-check"></i><b>8.2</b> Raster</a></li>
-<li class="chapter" data-level="8.3" data-path="feature.html"><a href="feature.html#important-gis-data-formats"><i class="fa fa-check"></i><b>8.3</b> Important GIS data formats</a>
+<li class="chapter" data-level="8.2" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#aes"><i class="fa fa-check"></i><b>8.2</b> aes()</a>
 <ul>
-<li class="chapter" data-level="8.3.1" data-path="feature.html"><a href="feature.html#shapefiles"><i class="fa fa-check"></i><b>8.3.1</b> Shapefiles</a></li>
-<li class="chapter" data-level="8.3.2" data-path="feature.html"><a href="feature.html#raster-1"><i class="fa fa-check"></i><b>8.3.2</b> Raster</a></li>
-<li class="chapter" data-level="8.3.3" data-path="feature.html"><a href="feature.html#attribute-tables"><i class="fa fa-check"></i><b>8.3.3</b> Attribute Tables</a></li>
-<li class="chapter" data-level="8.3.4" data-path="feature.html"><a href="feature.html#geodatabase"><i class="fa fa-check"></i><b>8.3.4</b> Geodatabase</a></li>
+<li class="chapter" data-level="8.2.1" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#color"><i class="fa fa-check"></i><b>8.2.1</b> Color</a></li>
+<li class="chapter" data-level="8.2.2" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#shape"><i class="fa fa-check"></i><b>8.2.2</b> shape</a></li>
 </ul></li>
-<li class="chapter" data-level="8.4" data-path="feature.html"><a href="feature.html#coordinate-reference-systems"><i class="fa fa-check"></i><b>8.4</b> Coordinate reference systems</a>
-<ul>
-<li class="chapter" data-level="8.4.1" data-path="feature.html"><a href="feature.html#geographic-coordinate-systems"><i class="fa fa-check"></i><b>8.4.1</b> Geographic coordinate systems</a></li>
-<li class="chapter" data-level="8.4.2" data-path="feature.html"><a href="feature.html#projected-coordinate-systems"><i class="fa fa-check"></i><b>8.4.2</b> Projected coordinate systems</a></li>
-<li class="chapter" data-level="8.4.3" data-path="feature.html"><a href="feature.html#setting-coordinate-reference-systems-in-r"><i class="fa fa-check"></i><b>8.4.3</b> Setting Coordinate Reference Systems in R</a></li>
+<li class="chapter" data-level="8.3" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#axis-and-labels"><i class="fa fa-check"></i><b>8.3</b> Axis and labels</a></li>
+<li class="chapter" data-level="8.4" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#text-annotaion"><i class="fa fa-check"></i><b>8.4</b> Text annotaion</a></li>
+<li class="chapter" data-level="8.5" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#scales"><i class="fa fa-check"></i><b>8.5</b> Scales</a></li>
+<li class="chapter" data-level="8.6" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#guides-1"><i class="fa fa-check"></i><b>8.6</b> Guides</a></li>
+<li class="chapter" data-level="8.7" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#themes"><i class="fa fa-check"></i><b>8.7</b> Themes</a></li>
 </ul></li>
-<li class="chapter" data-level="8.5" data-path="feature.html"><a href="feature.html#practicals"><i class="fa fa-check"></i><b>8.5</b> Practicals</a>
+<li class="chapter" data-level="9" data-path="feature.html"><a href="feature.html"><i class="fa fa-check"></i><b>9</b> Feature Representation</a>
 <ul>
-<li class="chapter" data-level="8.5.1" data-path="feature.html"><a href="feature.html#plotting-point-data"><i class="fa fa-check"></i><b>8.5.1</b> Plotting Point Data</a></li>
-<li class="chapter" data-level="8.5.2" data-path="feature.html"><a href="feature.html#geographic-coordinate-sytem"><i class="fa fa-check"></i><b>8.5.2</b> Geographic Coordinate Sytem</a></li>
+<li class="chapter" data-level="9.1" data-path="feature.html"><a href="feature.html#vector"><i class="fa fa-check"></i><b>9.1</b> Vector</a>
+<ul>
+<li class="chapter" data-level="9.1.1" data-path="feature.html"><a href="feature.html#a-point"><i class="fa fa-check"></i><b>9.1.1</b> A point</a></li>
+<li class="chapter" data-level="9.1.2" data-path="feature.html"><a href="feature.html#polyline"><i class="fa fa-check"></i><b>9.1.2</b> Polyline</a></li>
+<li class="chapter" data-level="9.1.3" data-path="feature.html"><a href="feature.html#polygon"><i class="fa fa-check"></i><b>9.1.3</b> Polygon</a></li>
 </ul></li>
-<li class="chapter" data-level="8.6" data-path="feature.html"><a href="feature.html#summary"><i class="fa fa-check"></i><b>8.6</b> Summary</a></li>
-<li class="chapter" data-level="8.7" data-path="feature.html"><a href="feature.html#questions"><i class="fa fa-check"></i><b>8.7</b> Questions</a></li>
-<li class="chapter" data-level="8.8" data-path="feature.html"><a href="feature.html#further-readings"><i class="fa fa-check"></i><b>8.8</b> FUrther readings</a></li>
+<li class="chapter" data-level="9.2" data-path="feature.html"><a href="feature.html#raster"><i class="fa fa-check"></i><b>9.2</b> Raster</a></li>
+<li class="chapter" data-level="9.3" data-path="feature.html"><a href="feature.html#important-gis-data-formats"><i class="fa fa-check"></i><b>9.3</b> Important GIS data formats</a>
+<ul>
+<li class="chapter" data-level="9.3.1" data-path="feature.html"><a href="feature.html#shapefiles"><i class="fa fa-check"></i><b>9.3.1</b> Shapefiles</a></li>
+<li class="chapter" data-level="9.3.2" data-path="feature.html"><a href="feature.html#raster-1"><i class="fa fa-check"></i><b>9.3.2</b> Raster</a></li>
+<li class="chapter" data-level="9.3.3" data-path="feature.html"><a href="feature.html#attribute-tables"><i class="fa fa-check"></i><b>9.3.3</b> Attribute Tables</a></li>
+<li class="chapter" data-level="9.3.4" data-path="feature.html"><a href="feature.html#geodatabase"><i class="fa fa-check"></i><b>9.3.4</b> Geodatabase</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html"><i class="fa fa-check"></i><b>9</b> Creating Geospatial Data</a>
+<li class="chapter" data-level="9.4" data-path="feature.html"><a href="feature.html#coordinate-reference-systems"><i class="fa fa-check"></i><b>9.4</b> Coordinate reference systems</a>
 <ul>
-<li class="chapter" data-level="9.1" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#getting-data-from-the-web"><i class="fa fa-check"></i><b>9.1</b> Getting data from the web</a>
-<ul>
-<li class="chapter" data-level="9.1.1" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#usage"><i class="fa fa-check"></i><b>9.1.1</b> Usage</a></li>
-<li class="chapter" data-level="9.1.2" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#to-download-natural-earth-data-not-already-in-the-package"><i class="fa fa-check"></i><b>9.1.2</b> To download Natural Earth data not already in the package</a></li>
+<li class="chapter" data-level="9.4.1" data-path="feature.html"><a href="feature.html#geographic-coordinate-systems"><i class="fa fa-check"></i><b>9.4.1</b> Geographic coordinate systems</a></li>
+<li class="chapter" data-level="9.4.2" data-path="feature.html"><a href="feature.html#projected-coordinate-systems"><i class="fa fa-check"></i><b>9.4.2</b> Projected coordinate systems</a></li>
+<li class="chapter" data-level="9.4.3" data-path="feature.html"><a href="feature.html#setting-coordinate-reference-systems-in-r"><i class="fa fa-check"></i><b>9.4.3</b> Setting Coordinate Reference Systems in R</a></li>
 </ul></li>
-<li class="chapter" data-level="9.2" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#creating-point-data"><i class="fa fa-check"></i><b>9.2</b> Creating Point Data</a>
+<li class="chapter" data-level="9.5" data-path="feature.html"><a href="feature.html#practicals"><i class="fa fa-check"></i><b>9.5</b> Practicals</a>
 <ul>
-<li class="chapter" data-level="9.2.1" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#creating-point-features"><i class="fa fa-check"></i><b>9.2.1</b> Creating point features</a></li>
-<li class="chapter" data-level="9.2.2" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#creating-line-features"><i class="fa fa-check"></i><b>9.2.2</b> Creating line features</a></li>
-<li class="chapter" data-level="9.2.3" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#creating-polygon-features"><i class="fa fa-check"></i><b>9.2.3</b> Creating Polygon features</a></li>
-<li class="chapter" data-level="9.2.4" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#adding-features-to-vector-data"><i class="fa fa-check"></i><b>9.2.4</b> Adding features to vector data</a></li>
-<li class="chapter" data-level="9.2.5" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#digitizing-a-map"><i class="fa fa-check"></i><b>9.2.5</b> Digitizing a map</a></li>
+<li class="chapter" data-level="9.5.1" data-path="feature.html"><a href="feature.html#plotting-point-data"><i class="fa fa-check"></i><b>9.5.1</b> Plotting Point Data</a></li>
+<li class="chapter" data-level="9.5.2" data-path="feature.html"><a href="feature.html#geographic-coordinate-sytem"><i class="fa fa-check"></i><b>9.5.2</b> Geographic Coordinate Sytem</a></li>
 </ul></li>
-<li class="chapter" data-level="9.3" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#summary-1"><i class="fa fa-check"></i><b>9.3</b> Summary</a></li>
-<li class="chapter" data-level="9.4" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#questions-1"><i class="fa fa-check"></i><b>9.4</b> Questions</a></li>
-<li class="chapter" data-level="9.5" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#further-reading"><i class="fa fa-check"></i><b>9.5</b> Further reading</a></li>
+<li class="chapter" data-level="9.6" data-path="feature.html"><a href="feature.html#summary"><i class="fa fa-check"></i><b>9.6</b> Summary</a></li>
+<li class="chapter" data-level="9.7" data-path="feature.html"><a href="feature.html#questions"><i class="fa fa-check"></i><b>9.7</b> Questions</a></li>
+<li class="chapter" data-level="9.8" data-path="feature.html"><a href="feature.html#further-readings"><i class="fa fa-check"></i><b>9.8</b> FUrther readings</a></li>
 </ul></li>
-<li class="chapter" data-level="10" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html"><i class="fa fa-check"></i><b>10</b> Working with vector data in R</a>
+<li class="chapter" data-level="10" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html"><i class="fa fa-check"></i><b>10</b> Creating Geospatial Data</a>
 <ul>
-<li class="chapter" data-level="10.1" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#combining-shapefile-in-r"><i class="fa fa-check"></i><b>10.1</b> Combining shapefile in R</a></li>
-<li class="chapter" data-level="10.2" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#clipping-in-r"><i class="fa fa-check"></i><b>10.2</b> Clipping in R</a></li>
-<li class="chapter" data-level="10.3" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#differences-in-r"><i class="fa fa-check"></i><b>10.3</b> DIfferences in R</a></li>
-<li class="chapter" data-level="10.4" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#area-calculation-in-r"><i class="fa fa-check"></i><b>10.4</b> Area calculation in R</a></li>
-<li class="chapter" data-level="10.5" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#buffer"><i class="fa fa-check"></i><b>10.5</b> Buffer</a></li>
-<li class="chapter" data-level="10.6" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#intersection"><i class="fa fa-check"></i><b>10.6</b> Intersection</a></li>
-<li class="chapter" data-level="10.7" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#statistical-summary-of-vector-layers"><i class="fa fa-check"></i><b>10.7</b> Statistical summary of vector layers</a></li>
-<li class="chapter" data-level="10.8" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#summary-2"><i class="fa fa-check"></i><b>10.8</b> Summary</a></li>
+<li class="chapter" data-level="10.1" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#getting-data-from-the-web"><i class="fa fa-check"></i><b>10.1</b> Getting data from the web</a>
+<ul>
+<li class="chapter" data-level="10.1.1" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#usage"><i class="fa fa-check"></i><b>10.1.1</b> Usage</a></li>
+<li class="chapter" data-level="10.1.2" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#to-download-natural-earth-data-not-already-in-the-package"><i class="fa fa-check"></i><b>10.1.2</b> To download Natural Earth data not already in the package</a></li>
 </ul></li>
-<li class="chapter" data-level="11" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html"><i class="fa fa-check"></i><b>11</b> Working with raster data in R</a>
+<li class="chapter" data-level="10.2" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#creating-point-data"><i class="fa fa-check"></i><b>10.2</b> Creating Point Data</a>
 <ul>
-<li class="chapter" data-level="11.1" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#nc-data"><i class="fa fa-check"></i><b>11.1</b> NC data</a></li>
-<li class="chapter" data-level="11.2" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#changing-the-projection-system-of-a-raster-file"><i class="fa fa-check"></i><b>11.2</b> Changing the projection system of a raster file</a>
-<ul>
-<li class="chapter" data-level="11.2.1" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#reading-tiff-format"><i class="fa fa-check"></i><b>11.2.1</b> Reading Tiff format</a></li>
-<li class="chapter" data-level="11.2.2" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#reclassifying-rasters"><i class="fa fa-check"></i><b>11.2.2</b> Reclassifying rasters</a></li>
-<li class="chapter" data-level="11.2.3" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#mapping-raster"><i class="fa fa-check"></i><b>11.2.3</b> Mapping raster</a></li>
+<li class="chapter" data-level="10.2.1" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#creating-point-features"><i class="fa fa-check"></i><b>10.2.1</b> Creating point features</a></li>
+<li class="chapter" data-level="10.2.2" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#creating-line-features"><i class="fa fa-check"></i><b>10.2.2</b> Creating line features</a></li>
+<li class="chapter" data-level="10.2.3" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#creating-polygon-features"><i class="fa fa-check"></i><b>10.2.3</b> Creating Polygon features</a></li>
+<li class="chapter" data-level="10.2.4" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#adding-features-to-vector-data"><i class="fa fa-check"></i><b>10.2.4</b> Adding features to vector data</a></li>
+<li class="chapter" data-level="10.2.5" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#digitizing-a-map"><i class="fa fa-check"></i><b>10.2.5</b> Digitizing a map</a></li>
 </ul></li>
-<li class="chapter" data-level="11.3" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#summary-3"><i class="fa fa-check"></i><b>11.3</b> Summary</a></li>
-<li class="chapter" data-level="11.4" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#questions-2"><i class="fa fa-check"></i><b>11.4</b> Questions</a></li>
+<li class="chapter" data-level="10.3" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#summary-1"><i class="fa fa-check"></i><b>10.3</b> Summary</a></li>
+<li class="chapter" data-level="10.4" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#questions-1"><i class="fa fa-check"></i><b>10.4</b> Questions</a></li>
+<li class="chapter" data-level="10.5" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#further-reading"><i class="fa fa-check"></i><b>10.5</b> Further reading</a></li>
 </ul></li>
-<li class="chapter" data-level="12" data-path="maps.html"><a href="maps.html"><i class="fa fa-check"></i><b>12</b> Maps</a>
+<li class="chapter" data-level="11" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html"><i class="fa fa-check"></i><b>11</b> Working with vector data in R</a>
 <ul>
-<li class="chapter" data-level="12.1" data-path="maps.html"><a href="maps.html#geographical-data-in-a-tidy-format"><i class="fa fa-check"></i><b>12.1</b> Geographical data in a tidy format</a>
-<ul>
-<li class="chapter" data-level="12.1.1" data-path="maps.html"><a href="maps.html#create-simple-feature-from-data.frame"><i class="fa fa-check"></i><b>12.1.1</b> Create simple feature from data.frame</a></li>
-<li class="chapter" data-level="12.1.2" data-path="maps.html"><a href="maps.html#importing-shapefile"><i class="fa fa-check"></i><b>12.1.2</b> Importing shapefile</a></li>
-<li class="chapter" data-level="12.1.3" data-path="maps.html"><a href="maps.html#reading-other-format"><i class="fa fa-check"></i><b>12.1.3</b> Reading other format</a></li>
+<li class="chapter" data-level="11.1" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#combining-shapefile-in-r"><i class="fa fa-check"></i><b>11.1</b> Combining shapefile in R</a></li>
+<li class="chapter" data-level="11.2" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#clipping-in-r"><i class="fa fa-check"></i><b>11.2</b> Clipping in R</a></li>
+<li class="chapter" data-level="11.3" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#differences-in-r"><i class="fa fa-check"></i><b>11.3</b> DIfferences in R</a></li>
+<li class="chapter" data-level="11.4" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#area-calculation-in-r"><i class="fa fa-check"></i><b>11.4</b> Area calculation in R</a></li>
+<li class="chapter" data-level="11.5" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#buffer"><i class="fa fa-check"></i><b>11.5</b> Buffer</a></li>
+<li class="chapter" data-level="11.6" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#intersection"><i class="fa fa-check"></i><b>11.6</b> Intersection</a></li>
+<li class="chapter" data-level="11.7" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#statistical-summary-of-vector-layers"><i class="fa fa-check"></i><b>11.7</b> Statistical summary of vector layers</a></li>
+<li class="chapter" data-level="11.8" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#summary-2"><i class="fa fa-check"></i><b>11.8</b> Summary</a></li>
 </ul></li>
-<li class="chapter" data-level="12.2" data-path="maps.html"><a href="maps.html#introduction"><i class="fa fa-check"></i><b>12.2</b> Introduction</a></li>
-<li class="chapter" data-level="12.3" data-path="maps.html"><a href="maps.html#static-maps"><i class="fa fa-check"></i><b>12.3</b> Static Maps</a>
+<li class="chapter" data-level="12" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html"><i class="fa fa-check"></i><b>12</b> Working with raster data in R</a>
 <ul>
-<li class="chapter" data-level="12.3.1" data-path="maps.html"><a href="maps.html#the-bathmetry-data"><i class="fa fa-check"></i><b>12.3.1</b> The bathmetry data</a></li>
+<li class="chapter" data-level="12.1" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#nc-data"><i class="fa fa-check"></i><b>12.1</b> NC data</a></li>
+<li class="chapter" data-level="12.2" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#changing-the-projection-system-of-a-raster-file"><i class="fa fa-check"></i><b>12.2</b> Changing the projection system of a raster file</a>
+<ul>
+<li class="chapter" data-level="12.2.1" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#reading-tiff-format"><i class="fa fa-check"></i><b>12.2.1</b> Reading Tiff format</a></li>
+<li class="chapter" data-level="12.2.2" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#reclassifying-rasters"><i class="fa fa-check"></i><b>12.2.2</b> Reclassifying rasters</a></li>
+<li class="chapter" data-level="12.2.3" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#mapping-raster"><i class="fa fa-check"></i><b>12.2.3</b> Mapping raster</a></li>
 </ul></li>
-<li class="chapter" data-level="12.4" data-path="maps.html"><a href="maps.html#basemap"><i class="fa fa-check"></i><b>12.4</b> Basemap</a></li>
-<li class="chapter" data-level="12.5" data-path="maps.html"><a href="maps.html#creating-contour-map"><i class="fa fa-check"></i><b>12.5</b> Creating contour map</a></li>
-<li class="chapter" data-level="12.6" data-path="maps.html"><a href="maps.html#inset-maps"><i class="fa fa-check"></i><b>12.6</b> Inset maps</a>
-<ul>
-<li class="chapter" data-level="12.6.1" data-path="maps.html"><a href="maps.html#choropleth-maps"><i class="fa fa-check"></i><b>12.6.1</b> Choropleth maps</a></li>
+<li class="chapter" data-level="12.3" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#summary-3"><i class="fa fa-check"></i><b>12.3</b> Summary</a></li>
+<li class="chapter" data-level="12.4" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#questions-2"><i class="fa fa-check"></i><b>12.4</b> Questions</a></li>
 </ul></li>
-<li class="chapter" data-level="12.7" data-path="maps.html"><a href="maps.html#animated-maps"><i class="fa fa-check"></i><b>12.7</b> Animated maps</a></li>
-<li class="chapter" data-level="12.8" data-path="maps.html"><a href="maps.html#interactive-maps"><i class="fa fa-check"></i><b>12.8</b> Interactive maps</a></li>
+<li class="chapter" data-level="13" data-path="maps.html"><a href="maps.html"><i class="fa fa-check"></i><b>13</b> Maps</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="maps.html"><a href="maps.html#geographical-data-in-a-tidy-format"><i class="fa fa-check"></i><b>13.1</b> Geographical data in a tidy format</a>
+<ul>
+<li class="chapter" data-level="13.1.1" data-path="maps.html"><a href="maps.html#create-simple-feature-from-data.frame"><i class="fa fa-check"></i><b>13.1.1</b> Create simple feature from data.frame</a></li>
+<li class="chapter" data-level="13.1.2" data-path="maps.html"><a href="maps.html#importing-shapefile"><i class="fa fa-check"></i><b>13.1.2</b> Importing shapefile</a></li>
+<li class="chapter" data-level="13.1.3" data-path="maps.html"><a href="maps.html#reading-other-format"><i class="fa fa-check"></i><b>13.1.3</b> Reading other format</a></li>
 </ul></li>
-<li class="chapter" data-level="13" data-path="c20.html"><a href="c20.html"><i class="fa fa-check"></i><b>13</b> Appendices</a>
+<li class="chapter" data-level="13.2" data-path="maps.html"><a href="maps.html#introduction"><i class="fa fa-check"></i><b>13.2</b> Introduction</a></li>
+<li class="chapter" data-level="13.3" data-path="maps.html"><a href="maps.html#static-maps"><i class="fa fa-check"></i><b>13.3</b> Static Maps</a>
 <ul>
-<li class="chapter" data-level="13.1" data-path="c20.html"><a href="c20.html#practical-a-getting-started"><i class="fa fa-check"></i><b>13.1</b> Practical A: Getting started</a>
-<ul>
-<li class="chapter" data-level="13.1.1" data-path="c20.html"><a href="c20.html#install-necessary-packages"><i class="fa fa-check"></i><b>13.1.1</b> Install necessary packages</a></li>
-<li class="chapter" data-level="13.1.2" data-path="c20.html"><a href="c20.html#create-an-rstudio-project"><i class="fa fa-check"></i><b>13.1.2</b> Create An Rstudio Project</a></li>
-<li class="chapter" data-level="13.1.3" data-path="c20.html"><a href="c20.html#create-an-r-markdown-file"><i class="fa fa-check"></i><b>13.1.3</b> Create an R Markdown file</a></li>
-<li class="chapter" data-level="13.1.4" data-path="c20.html"><a href="c20.html#create-new-folders"><i class="fa fa-check"></i><b>13.1.4</b> Create New folders</a></li>
+<li class="chapter" data-level="13.3.1" data-path="maps.html"><a href="maps.html#the-bathmetry-data"><i class="fa fa-check"></i><b>13.3.1</b> The bathmetry data</a></li>
 </ul></li>
-<li class="chapter" data-level="13.2" data-path="c20.html"><a href="c20.html#practical-b-working-with-climate-data"><i class="fa fa-check"></i><b>13.2</b> Practical B: Working with climate data</a>
+<li class="chapter" data-level="13.4" data-path="maps.html"><a href="maps.html#basemap"><i class="fa fa-check"></i><b>13.4</b> Basemap</a></li>
+<li class="chapter" data-level="13.5" data-path="maps.html"><a href="maps.html#creating-contour-map"><i class="fa fa-check"></i><b>13.5</b> Creating contour map</a></li>
+<li class="chapter" data-level="13.6" data-path="maps.html"><a href="maps.html#inset-maps"><i class="fa fa-check"></i><b>13.6</b> Inset maps</a>
 <ul>
-<li class="chapter" data-level="13.2.1" data-path="c20.html"><a href="c20.html#part-1-rasters"><i class="fa fa-check"></i><b>13.2.1</b> Part 1: rasters</a></li>
-<li class="chapter" data-level="13.2.2" data-path="c20.html"><a href="c20.html#part-2-descriptive-statistics"><i class="fa fa-check"></i><b>13.2.2</b> Part 2 descriptive statistics</a></li>
-<li class="chapter" data-level="13.2.3" data-path="c20.html"><a href="c20.html#using-more-data"><i class="fa fa-check"></i><b>13.2.3</b> Using more data</a></li>
-<li class="chapter" data-level="13.2.4" data-path="c20.html"><a href="c20.html#wind"><i class="fa fa-check"></i><b>13.2.4</b> Wind</a></li>
-<li class="chapter" data-level="13.2.5" data-path="c20.html"><a href="c20.html#precipitation"><i class="fa fa-check"></i><b>13.2.5</b> Precipitation</a></li>
-<li class="chapter" data-level="13.2.6" data-path="c20.html"><a href="c20.html#advanced-analysis"><i class="fa fa-check"></i><b>13.2.6</b> Advanced analysis</a></li>
-<li class="chapter" data-level="13.2.7" data-path="c20.html"><a href="c20.html#stars-package"><i class="fa fa-check"></i><b>13.2.7</b> stars package</a></li>
-<li class="chapter" data-level="13.2.8" data-path="c20.html"><a href="c20.html#dplyr-package"><i class="fa fa-check"></i><b>13.2.8</b> dplyr package</a></li>
-<li class="chapter" data-level="13.2.9" data-path="c20.html"><a href="c20.html#cubelyr"><i class="fa fa-check"></i><b>13.2.9</b> cubelyr</a></li>
+<li class="chapter" data-level="13.6.1" data-path="maps.html"><a href="maps.html#choropleth-maps"><i class="fa fa-check"></i><b>13.6.1</b> Choropleth maps</a></li>
 </ul></li>
-<li class="chapter" data-level="13.3" data-path="c20.html"><a href="c20.html#practical-c-finding-loading-and-cleaning-spatial-data"><i class="fa fa-check"></i><b>13.3</b> Practical C: Finding, loading, and cleaning Spatial data</a>
-<ul>
-<li class="chapter" data-level="13.3.1" data-path="c20.html"><a href="c20.html#thinking-about-map-data-the-way-r-does"><i class="fa fa-check"></i><b>13.3.1</b> Thinking about map data the way R does</a></li>
-<li class="chapter" data-level="13.3.2" data-path="c20.html"><a href="c20.html#a-brief-introduction-to-simple-features-data-in-r"><i class="fa fa-check"></i><b>13.3.2</b> A brief introduction to simple features data in R</a></li>
-<li class="chapter" data-level="13.3.3" data-path="c20.html"><a href="c20.html#finding-data"><i class="fa fa-check"></i><b>13.3.3</b> Finding data</a></li>
-<li class="chapter" data-level="13.3.4" data-path="c20.html"><a href="c20.html#finding-non-geospatial-data"><i class="fa fa-check"></i><b>13.3.4</b> Finding non-geospatial data</a></li>
-<li class="chapter" data-level="13.3.5" data-path="c20.html"><a href="c20.html#combining-spatial-data-with-non-spatial-data"><i class="fa fa-check"></i><b>13.3.5</b> Combining spatial data with non-spatial data</a></li>
-<li class="chapter" data-level="13.3.6" data-path="c20.html"><a href="c20.html#conclusion"><i class="fa fa-check"></i><b>13.3.6</b> Conclusion</a></li>
+<li class="chapter" data-level="13.7" data-path="maps.html"><a href="maps.html#animated-maps"><i class="fa fa-check"></i><b>13.7</b> Animated maps</a></li>
+<li class="chapter" data-level="13.8" data-path="maps.html"><a href="maps.html#interactive-maps"><i class="fa fa-check"></i><b>13.8</b> Interactive maps</a></li>
 </ul></li>
-<li class="chapter" data-level="13.4" data-path="c20.html"><a href="c20.html#practical-d-making-maps-with-ggplot2"><i class="fa fa-check"></i><b>13.4</b> Practical D: Making maps with ggplot2</a>
+<li class="chapter" data-level="14" data-path="c20.html"><a href="c20.html"><i class="fa fa-check"></i><b>14</b> Appendices</a>
 <ul>
-<li class="chapter" data-level="13.4.1" data-path="c20.html"><a href="c20.html#import-and-clean-the-datasets"><i class="fa fa-check"></i><b>13.4.1</b> Import and clean the datasets</a></li>
-<li class="chapter" data-level="13.4.2" data-path="c20.html"><a href="c20.html#add-highlights-and-annotations"><i class="fa fa-check"></i><b>13.4.2</b> Add highlights and annotations</a></li>
-<li class="chapter" data-level="13.4.3" data-path="c20.html"><a href="c20.html#inset-map"><i class="fa fa-check"></i><b>13.4.3</b> inset map</a></li>
-<li class="chapter" data-level="13.4.4" data-path="c20.html"><a href="c20.html#final-beautification"><i class="fa fa-check"></i><b>13.4.4</b> Final beautification</a></li>
+<li class="chapter" data-level="14.1" data-path="c20.html"><a href="c20.html#practical-a-getting-started"><i class="fa fa-check"></i><b>14.1</b> Practical A: Getting started</a>
+<ul>
+<li class="chapter" data-level="14.1.1" data-path="c20.html"><a href="c20.html#install-necessary-packages"><i class="fa fa-check"></i><b>14.1.1</b> Install necessary packages</a></li>
+<li class="chapter" data-level="14.1.2" data-path="c20.html"><a href="c20.html#create-an-rstudio-project"><i class="fa fa-check"></i><b>14.1.2</b> Create An Rstudio Project</a></li>
+<li class="chapter" data-level="14.1.3" data-path="c20.html"><a href="c20.html#create-an-r-markdown-file"><i class="fa fa-check"></i><b>14.1.3</b> Create an R Markdown file</a></li>
+<li class="chapter" data-level="14.1.4" data-path="c20.html"><a href="c20.html#create-new-folders"><i class="fa fa-check"></i><b>14.1.4</b> Create New folders</a></li>
 </ul></li>
-<li class="chapter" data-level="13.5" data-path="c20.html"><a href="c20.html#practical-e-the-bathmetry-data"><i class="fa fa-check"></i><b>13.5</b> Practical E: The bathmetry data</a>
+<li class="chapter" data-level="14.2" data-path="c20.html"><a href="c20.html#practical-b-working-with-climate-data"><i class="fa fa-check"></i><b>14.2</b> Practical B: Working with climate data</a>
 <ul>
-<li class="chapter" data-level="13.5.1" data-path="c20.html"><a href="c20.html#zoom-in-on-a-region-of-interest"><i class="fa fa-check"></i><b>13.5.1</b> Zoom in on a region of interest</a></li>
+<li class="chapter" data-level="14.2.1" data-path="c20.html"><a href="c20.html#part-1-rasters"><i class="fa fa-check"></i><b>14.2.1</b> Part 1: rasters</a></li>
+<li class="chapter" data-level="14.2.2" data-path="c20.html"><a href="c20.html#part-2-descriptive-statistics"><i class="fa fa-check"></i><b>14.2.2</b> Part 2 descriptive statistics</a></li>
+<li class="chapter" data-level="14.2.3" data-path="c20.html"><a href="c20.html#using-more-data"><i class="fa fa-check"></i><b>14.2.3</b> Using more data</a></li>
+<li class="chapter" data-level="14.2.4" data-path="c20.html"><a href="c20.html#wind"><i class="fa fa-check"></i><b>14.2.4</b> Wind</a></li>
+<li class="chapter" data-level="14.2.5" data-path="c20.html"><a href="c20.html#precipitation"><i class="fa fa-check"></i><b>14.2.5</b> Precipitation</a></li>
+<li class="chapter" data-level="14.2.6" data-path="c20.html"><a href="c20.html#advanced-analysis"><i class="fa fa-check"></i><b>14.2.6</b> Advanced analysis</a></li>
+<li class="chapter" data-level="14.2.7" data-path="c20.html"><a href="c20.html#stars-package"><i class="fa fa-check"></i><b>14.2.7</b> stars package</a></li>
 </ul></li>
-<li class="chapter" data-level="13.6" data-path="c20.html"><a href="c20.html#practical-f-drawing-maps-programmatically-with-r"><i class="fa fa-check"></i><b>13.6</b> Practical F: Drawing maps programmatically with R</a>
+<li class="chapter" data-level="14.3" data-path="c20.html"><a href="c20.html#practical-c-handling-projections-and-coordinate-systems"><i class="fa fa-check"></i><b>14.3</b> Practical C: Handling Projections and Coordinate Systems</a>
 <ul>
-<li class="chapter" data-level="13.6.1" data-path="c20.html"><a href="c20.html#a-solution-using-r-and-its-ecosystem-of-packages"><i class="fa fa-check"></i><b>13.6.1</b> A solution using R and its ecosystem of packages</a></li>
-<li class="chapter" data-level="13.6.2" data-path="c20.html"><a href="c20.html#getting-started"><i class="fa fa-check"></i><b>13.6.2</b> Getting started</a></li>
-<li class="chapter" data-level="13.6.3" data-path="c20.html"><a href="c20.html#data-and-basic-plot-ggplot-and-geom_sf"><i class="fa fa-check"></i><b>13.6.3</b> Data and basic plot (<code>ggplot</code> and <code>geom_sf</code>)</a></li>
-<li class="chapter" data-level="13.6.4" data-path="c20.html"><a href="c20.html#title-subtitle-and-axis-labels-ggtitle-xlab-ylab"><i class="fa fa-check"></i><b>13.6.4</b> Title, subtitle, and axis labels (<code>ggtitle</code>, <code>xlab</code>, <code>ylab</code>)</a></li>
-<li class="chapter" data-level="13.6.5" data-path="c20.html"><a href="c20.html#map-color-geom_sf"><i class="fa fa-check"></i><b>13.6.5</b> Map color (<code>geom_sf</code>)</a></li>
-<li class="chapter" data-level="13.6.6" data-path="c20.html"><a href="c20.html#projection-and-extent-coord_sf"><i class="fa fa-check"></i><b>13.6.6</b> Projection and extent (<code>coord_sf</code>)</a></li>
-<li class="chapter" data-level="13.6.7" data-path="c20.html"><a href="c20.html#scale-bar-and-north-arrow-package-ggspatial"><i class="fa fa-check"></i><b>13.6.7</b> Scale bar and North arrow (package <code>ggspatial</code>)</a></li>
-<li class="chapter" data-level="13.6.8" data-path="c20.html"><a href="c20.html#country-names-and-other-names-geom_text-and-annotate"><i class="fa fa-check"></i><b>13.6.8</b> Country names and other names (<code>geom_text</code> and <code>annotate</code>)</a></li>
+<li class="chapter" data-level="14.3.1" data-path="c20.html"><a href="c20.html#assigning-coordinate-reference-system"><i class="fa fa-check"></i><b>14.3.1</b> Assigning Coordinate reference system</a></li>
+<li class="chapter" data-level="14.3.2" data-path="c20.html"><a href="c20.html#transforming-coordinate-system"><i class="fa fa-check"></i><b>14.3.2</b> Transforming coordinate System</a></li>
+</ul></li>
+<li class="chapter" data-level="14.4" data-path="c20.html"><a href="c20.html#practical-d-finding-loading-and-cleaning-spatial-data"><i class="fa fa-check"></i><b>14.4</b> Practical D: Finding, loading, and cleaning Spatial data</a>
+<ul>
+<li class="chapter" data-level="14.4.1" data-path="c20.html"><a href="c20.html#thinking-about-map-data-the-way-r-does"><i class="fa fa-check"></i><b>14.4.1</b> Thinking about map data the way R does</a></li>
+<li class="chapter" data-level="14.4.2" data-path="c20.html"><a href="c20.html#a-brief-introduction-to-simple-features-data-in-r"><i class="fa fa-check"></i><b>14.4.2</b> A brief introduction to simple features data in R</a></li>
+<li class="chapter" data-level="14.4.3" data-path="c20.html"><a href="c20.html#finding-data"><i class="fa fa-check"></i><b>14.4.3</b> Finding data</a></li>
+<li class="chapter" data-level="14.4.4" data-path="c20.html"><a href="c20.html#finding-non-geospatial-data"><i class="fa fa-check"></i><b>14.4.4</b> Finding non-geospatial data</a></li>
+<li class="chapter" data-level="14.4.5" data-path="c20.html"><a href="c20.html#combining-spatial-data-with-non-spatial-data"><i class="fa fa-check"></i><b>14.4.5</b> Combining spatial data with non-spatial data</a></li>
+<li class="chapter" data-level="14.4.6" data-path="c20.html"><a href="c20.html#conclusion"><i class="fa fa-check"></i><b>14.4.6</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="14.5" data-path="c20.html"><a href="c20.html#practical-e-making-maps-with-ggplot2"><i class="fa fa-check"></i><b>14.5</b> Practical E: Making maps with ggplot2</a>
+<ul>
+<li class="chapter" data-level="14.5.1" data-path="c20.html"><a href="c20.html#import-and-clean-the-datasets"><i class="fa fa-check"></i><b>14.5.1</b> Import and clean the datasets</a></li>
+<li class="chapter" data-level="14.5.2" data-path="c20.html"><a href="c20.html#add-highlights-and-annotations"><i class="fa fa-check"></i><b>14.5.2</b> Add highlights and annotations</a></li>
+<li class="chapter" data-level="14.5.3" data-path="c20.html"><a href="c20.html#inset-map"><i class="fa fa-check"></i><b>14.5.3</b> inset map</a></li>
+<li class="chapter" data-level="14.5.4" data-path="c20.html"><a href="c20.html#final-beautification"><i class="fa fa-check"></i><b>14.5.4</b> Final beautification</a></li>
+</ul></li>
+<li class="chapter" data-level="14.6" data-path="c20.html"><a href="c20.html#practical-f-the-bathmetry-data"><i class="fa fa-check"></i><b>14.6</b> Practical F: The bathmetry data</a>
+<ul>
+<li class="chapter" data-level="14.6.1" data-path="c20.html"><a href="c20.html#zoom-in-on-a-region-of-interest"><i class="fa fa-check"></i><b>14.6.1</b> Zoom in on a region of interest</a></li>
+</ul></li>
+<li class="chapter" data-level="14.7" data-path="c20.html"><a href="c20.html#practical-g-drawing-maps-programmatically-with-r"><i class="fa fa-check"></i><b>14.7</b> Practical G: Drawing maps programmatically with R</a>
+<ul>
+<li class="chapter" data-level="14.7.1" data-path="c20.html"><a href="c20.html#a-solution-using-r-and-its-ecosystem-of-packages"><i class="fa fa-check"></i><b>14.7.1</b> A solution using R and its ecosystem of packages</a></li>
+<li class="chapter" data-level="14.7.2" data-path="c20.html"><a href="c20.html#getting-started"><i class="fa fa-check"></i><b>14.7.2</b> Getting started</a></li>
+<li class="chapter" data-level="14.7.3" data-path="c20.html"><a href="c20.html#data-and-basic-plot-ggplot-and-geom_sf"><i class="fa fa-check"></i><b>14.7.3</b> Data and basic plot (<code>ggplot</code> and <code>geom_sf</code>)</a></li>
+<li class="chapter" data-level="14.7.4" data-path="c20.html"><a href="c20.html#title-subtitle-and-axis-labels-ggtitle-xlab-ylab"><i class="fa fa-check"></i><b>14.7.4</b> Title, subtitle, and axis labels (<code>ggtitle</code>, <code>xlab</code>, <code>ylab</code>)</a></li>
+<li class="chapter" data-level="14.7.5" data-path="c20.html"><a href="c20.html#map-color-geom_sf"><i class="fa fa-check"></i><b>14.7.5</b> Map color (<code>geom_sf</code>)</a></li>
+<li class="chapter" data-level="14.7.6" data-path="c20.html"><a href="c20.html#projection-and-extent-coord_sf"><i class="fa fa-check"></i><b>14.7.6</b> Projection and extent (<code>coord_sf</code>)</a></li>
+<li class="chapter" data-level="14.7.7" data-path="c20.html"><a href="c20.html#scale-bar-and-north-arrow-package-ggspatial"><i class="fa fa-check"></i><b>14.7.7</b> Scale bar and North arrow (package <code>ggspatial</code>)</a></li>
+<li class="chapter" data-level="14.7.8" data-path="c20.html"><a href="c20.html#country-names-and-other-names-geom_text-and-annotate"><i class="fa fa-check"></i><b>14.7.8</b> Country names and other names (<code>geom_text</code> and <code>annotate</code>)</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
@@ -505,8 +526,8 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="working-with-vector-data-in-r" class="section level1" number="10">
-<h1><span class="header-section-number">Chapter 10</span> Working with vector data in R</h1>
+<div id="working-with-vector-data-in-r" class="section level1" number="11">
+<h1><span class="header-section-number">Chapter 11</span> Working with vector data in R</h1>
 <p>This tutorial introduces you to different types of spatial data manipulation in R. We’ll learn how to merge shapefiles and clip our data to a vector file, difference between shapefiles, how to get the intersection of point data and line data, and how to create a buffer around a feature. We’ll use R to demonstrate these operations. All of these techniques are very helpful to have in a geospatial analyst’s toolbox. After completing this tutorial, you’ll have hands-on knowledge of the following</p>
 <ul>
 <li>Combining shapefiles</li>
@@ -520,15 +541,15 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li>Advanced field calculations</li>
 </ul>
 <p>Due to the contribution of many developers in the form of R packages, we can now use R as a spatial analysis tool to perform different operations on vector data. To master these, we need to know the basics of spatial data manipulation in R. Some R packages, such as <strong>sp</strong>, <strong>sf</strong>, and <strong>tidyverse</strong>, will be used frequently to accomplish these tasks</p>
-<div id="combining-shapefile-in-r" class="section level2" number="10.1">
-<h2><span class="header-section-number">10.1</span> Combining shapefile in R</h2>
+<div id="combining-shapefile-in-r" class="section level2" number="11.1">
+<h2><span class="header-section-number">11.1</span> Combining shapefile in R</h2>
 <p>In this example, we’ll merge two shapefile of two districts called Dhaka and Gazipur. Now, BGD_adm3_data_re is a shapefile containing all of the districts of Bangladesh as separate polygons. We have the shapefile of Dhaka but not of Gazipur, so we’ll create a shapefile of Gazipur before we start merging these two shapefile. Let’s load the required packages now:</p>
-<div class="sourceCode" id="cb363"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb363-1"><a href="working-with-vector-data-in-r.html#cb363-1"></a><span class="kw">require</span>(sf)</span>
-<span id="cb363-2"><a href="working-with-vector-data-in-r.html#cb363-2"></a><span class="kw">require</span>(tidyverse)</span></code></pre></div>
+<div class="sourceCode" id="cb396"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb396-1"><a href="working-with-vector-data-in-r.html#cb396-1"></a><span class="kw">require</span>(sf)</span>
+<span id="cb396-2"><a href="working-with-vector-data-in-r.html#cb396-2"></a><span class="kw">require</span>(tidyverse)</span></code></pre></div>
 <p>Then, we load the `` shapefile. As we have seen in previous chapters</p>
-<div class="sourceCode" id="cb364"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb364-1"><a href="working-with-vector-data-in-r.html#cb364-1"></a>dive.sites =<span class="st"> </span><span class="kw">st_read</span>(<span class="st">&quot;e:/GIS/Projects/MASTER/tansea/tza_dive_sites_200k.shp&quot;</span>, <span class="dt">quiet =</span> <span class="ot">TRUE</span>)</span>
-<span id="cb364-2"><a href="working-with-vector-data-in-r.html#cb364-2"></a></span>
-<span id="cb364-3"><a href="working-with-vector-data-in-r.html#cb364-3"></a>dive.sites</span></code></pre></div>
+<div class="sourceCode" id="cb397"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb397-1"><a href="working-with-vector-data-in-r.html#cb397-1"></a>dive.sites =<span class="st"> </span><span class="kw">st_read</span>(<span class="st">&quot;e:/GIS/Projects/MASTER/tansea/tza_dive_sites_200k.shp&quot;</span>, <span class="dt">quiet =</span> <span class="ot">TRUE</span>)</span>
+<span id="cb397-2"><a href="working-with-vector-data-in-r.html#cb397-2"></a></span>
+<span id="cb397-3"><a href="working-with-vector-data-in-r.html#cb397-3"></a>dive.sites</span></code></pre></div>
 <pre><code>Simple feature collection with 113 features and 4 fields
 geometry type:  POINT
 dimension:      XY
@@ -546,9 +567,9 @@ First 10 features:
 8   8     W8 TYPE1 PANGE SANDBANK  POINT (39.1611 -6.182669)
 9   9     W9 TYPE1    NTANGE WEST POINT (39.11455 -6.239784)
 10 10    W10 TYPE1    NYANGE EAST  POINT (39.14341 -6.24634)</code></pre>
-<div class="sourceCode" id="cb366"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb366-1"><a href="working-with-vector-data-in-r.html#cb366-1"></a>dugong.sites =<span class="st"> </span><span class="kw">st_read</span>(<span class="st">&quot;e:/GIS/Projects/MASTER/tansea/tza_dugong_sightings_200k.shp&quot;</span>, <span class="dt">quiet =</span> <span class="ot">TRUE</span>)</span>
-<span id="cb366-2"><a href="working-with-vector-data-in-r.html#cb366-2"></a></span>
-<span id="cb366-3"><a href="working-with-vector-data-in-r.html#cb366-3"></a>dugong.sites</span></code></pre></div>
+<div class="sourceCode" id="cb399"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb399-1"><a href="working-with-vector-data-in-r.html#cb399-1"></a>dugong.sites =<span class="st"> </span><span class="kw">st_read</span>(<span class="st">&quot;e:/GIS/Projects/MASTER/tansea/tza_dugong_sightings_200k.shp&quot;</span>, <span class="dt">quiet =</span> <span class="ot">TRUE</span>)</span>
+<span id="cb399-2"><a href="working-with-vector-data-in-r.html#cb399-2"></a></span>
+<span id="cb399-3"><a href="working-with-vector-data-in-r.html#cb399-3"></a>dugong.sites</span></code></pre></div>
 <pre><code>Simple feature collection with 6 features and 2 fields
 geometry type:  POINT
 dimension:      XY
@@ -561,28 +582,28 @@ geographic CRS: WGS 84
 4 Untitled Placemark  &lt;NA&gt; POINT (39.38986 -8.304997)
 5 Untitled Placemark  &lt;NA&gt; POINT (39.46473 -7.917048)
 6 Untitled Placemark  &lt;NA&gt; POINT (40.45371 -10.29022)</code></pre>
-<div class="sourceCode" id="cb368"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb368-1"><a href="working-with-vector-data-in-r.html#cb368-1"></a>dive.sites =<span class="st"> </span>dive.sites <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">select</span>(<span class="dt">name =</span> NAME)<span class="op">%&gt;%</span><span class="st"> </span></span>
-<span id="cb368-2"><a href="working-with-vector-data-in-r.html#cb368-2"></a><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">type =</span> <span class="st">&quot;Dive sites&quot;</span>) <span class="op">%&gt;%</span></span>
-<span id="cb368-3"><a href="working-with-vector-data-in-r.html#cb368-3"></a><span class="st">  </span><span class="kw">sample_n</span>(<span class="dv">6</span>)</span>
-<span id="cb368-4"><a href="working-with-vector-data-in-r.html#cb368-4"></a></span>
-<span id="cb368-5"><a href="working-with-vector-data-in-r.html#cb368-5"></a>dive.sites</span></code></pre></div>
+<div class="sourceCode" id="cb401"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb401-1"><a href="working-with-vector-data-in-r.html#cb401-1"></a>dive.sites =<span class="st"> </span>dive.sites <span class="op">%&gt;%</span><span class="st"> </span><span class="kw">select</span>(<span class="dt">name =</span> NAME)<span class="op">%&gt;%</span><span class="st"> </span></span>
+<span id="cb401-2"><a href="working-with-vector-data-in-r.html#cb401-2"></a><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">type =</span> <span class="st">&quot;Dive sites&quot;</span>) <span class="op">%&gt;%</span></span>
+<span id="cb401-3"><a href="working-with-vector-data-in-r.html#cb401-3"></a><span class="st">  </span><span class="kw">sample_n</span>(<span class="dv">6</span>)</span>
+<span id="cb401-4"><a href="working-with-vector-data-in-r.html#cb401-4"></a></span>
+<span id="cb401-5"><a href="working-with-vector-data-in-r.html#cb401-5"></a>dive.sites</span></code></pre></div>
 <pre><code>Simple feature collection with 6 features and 2 fields
 geometry type:  POINT
 dimension:      XY
-bbox:           xmin: 39.09486 ymin: -8.298319 xmax: 39.58839 ymax: -5.753368
+bbox:           xmin: 39.12018 ymin: -10.30071 xmax: 40.3632 ymax: -5.342382
 geographic CRS: WGS 84
-            name       type                   geometry
-1 SNORKEL SPOT 2 Dive sites POINT (39.27631 -5.753368)
-2           &lt;NA&gt; Dive sites POINT (39.58839 -8.298319)
-3    NYANGE EAST Dive sites  POINT (39.14341 -6.24634)
-4     HOUSE REEF Dive sites POINT (39.53092 -6.127953)
-5     MPAPE REEF Dive sites POINT (39.09486 -6.189248)
-6 PANGE SANDBANK Dive sites  POINT (39.1611 -6.182669)</code></pre>
-<div class="sourceCode" id="cb370"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb370-1"><a href="working-with-vector-data-in-r.html#cb370-1"></a>dugong.sites =<span class="st"> </span>dugong.sites <span class="op">%&gt;%</span><span class="st"> </span></span>
-<span id="cb370-2"><a href="working-with-vector-data-in-r.html#cb370-2"></a><span class="st">  </span><span class="kw">select</span>(<span class="dt">name =</span> Name) <span class="op">%&gt;%</span><span class="st"> </span></span>
-<span id="cb370-3"><a href="working-with-vector-data-in-r.html#cb370-3"></a><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">type =</span> <span class="st">&quot;Dugong sites&quot;</span>) </span>
-<span id="cb370-4"><a href="working-with-vector-data-in-r.html#cb370-4"></a></span>
-<span id="cb370-5"><a href="working-with-vector-data-in-r.html#cb370-5"></a>dugong.sites</span></code></pre></div>
+           name       type                   geometry
+1          &lt;NA&gt; Dive sites POINT (39.84212 -9.989132)
+2 TURTLE GARDEN Dive sites POINT (39.53094 -6.138454)
+3          &lt;NA&gt; Dive sites POINT (39.12018 -5.342382)
+4 JACKFISH SPOT Dive sites POINT (39.41381 -5.795065)
+5          &lt;NA&gt; Dive sites  POINT (40.3632 -10.30071)
+6    FUNGU REEF Dive sites POINT (39.15258 -6.181359)</code></pre>
+<div class="sourceCode" id="cb403"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb403-1"><a href="working-with-vector-data-in-r.html#cb403-1"></a>dugong.sites =<span class="st"> </span>dugong.sites <span class="op">%&gt;%</span><span class="st"> </span></span>
+<span id="cb403-2"><a href="working-with-vector-data-in-r.html#cb403-2"></a><span class="st">  </span><span class="kw">select</span>(<span class="dt">name =</span> Name) <span class="op">%&gt;%</span><span class="st"> </span></span>
+<span id="cb403-3"><a href="working-with-vector-data-in-r.html#cb403-3"></a><span class="st">  </span><span class="kw">mutate</span>(<span class="dt">type =</span> <span class="st">&quot;Dugong sites&quot;</span>) </span>
+<span id="cb403-4"><a href="working-with-vector-data-in-r.html#cb403-4"></a></span>
+<span id="cb403-5"><a href="working-with-vector-data-in-r.html#cb403-5"></a>dugong.sites</span></code></pre></div>
 <pre><code>Simple feature collection with 6 features and 2 fields
 geometry type:  POINT
 dimension:      XY
@@ -595,42 +616,42 @@ geographic CRS: WGS 84
 4 Untitled Placemark POINT (39.38986 -8.304997) Dugong sites
 5 Untitled Placemark POINT (39.46473 -7.917048) Dugong sites
 6 Untitled Placemark POINT (40.45371 -10.29022) Dugong sites</code></pre>
-<div class="sourceCode" id="cb372"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb372-1"><a href="working-with-vector-data-in-r.html#cb372-1"></a>dive.dugong.sites =<span class="st"> </span>dive.sites <span class="op">%&gt;%</span></span>
-<span id="cb372-2"><a href="working-with-vector-data-in-r.html#cb372-2"></a><span class="st">  </span><span class="kw">rbind</span>(dugong.sites)</span></code></pre></div>
-<div class="sourceCode" id="cb373"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb373-1"><a href="working-with-vector-data-in-r.html#cb373-1"></a><span class="kw">ggplot</span>()<span class="op">+</span></span>
-<span id="cb373-2"><a href="working-with-vector-data-in-r.html#cb373-2"></a><span class="st">  </span><span class="kw">geom_sf</span>(<span class="dt">data =</span> dive.dugong.sites, <span class="kw">aes</span>(<span class="dt">color =</span> type))</span></code></pre></div>
-<p><img src="geoMarine_files/figure-html/unnamed-chunk-263-1.png" width="672" /></p>
+<div class="sourceCode" id="cb405"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb405-1"><a href="working-with-vector-data-in-r.html#cb405-1"></a>dive.dugong.sites =<span class="st"> </span>dive.sites <span class="op">%&gt;%</span></span>
+<span id="cb405-2"><a href="working-with-vector-data-in-r.html#cb405-2"></a><span class="st">  </span><span class="kw">rbind</span>(dugong.sites)</span></code></pre></div>
+<div class="sourceCode" id="cb406"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb406-1"><a href="working-with-vector-data-in-r.html#cb406-1"></a><span class="kw">ggplot</span>()<span class="op">+</span></span>
+<span id="cb406-2"><a href="working-with-vector-data-in-r.html#cb406-2"></a><span class="st">  </span><span class="kw">geom_sf</span>(<span class="dt">data =</span> dive.dugong.sites, <span class="kw">aes</span>(<span class="dt">color =</span> type))</span></code></pre></div>
+<p><img src="geoMarine_files/figure-html/unnamed-chunk-298-1.png" width="672" /></p>
 </div>
-<div id="clipping-in-r" class="section level2" number="10.2">
-<h2><span class="header-section-number">10.2</span> Clipping in R</h2>
+<div id="clipping-in-r" class="section level2" number="11.2">
+<h2><span class="header-section-number">11.2</span> Clipping in R</h2>
 <p>Here, we’ll learn how to clip spatial points to a shapefile. For example, we have many data points over many places of Bangladesh and we want to clip these data points to the shapeŁle of Dhaka, named dhaka.shp. In this example, we have a CSV Łle, arbitrary_indicator.csv, which has two columns, lon and lat, containing the longitude and latitude of these points, respectively. To achieve our objective, we can take the following steps. First, read the CSV Łle and then use coordinates() to turn it into a spatial object that R can recognize. In doing so, indicate the longitude and latitude Łelds followed by ~:</p>
-<div class="sourceCode" id="cb374"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb374-1"><a href="working-with-vector-data-in-r.html#cb374-1"></a><span class="kw">st_crop</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb407"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb407-1"><a href="working-with-vector-data-in-r.html#cb407-1"></a><span class="kw">st_crop</span>()</span></code></pre></div>
 </div>
-<div id="differences-in-r" class="section level2" number="10.3">
-<h2><span class="header-section-number">10.3</span> DIfferences in R</h2>
+<div id="differences-in-r" class="section level2" number="11.3">
+<h2><span class="header-section-number">11.3</span> DIfferences in R</h2>
 <p>Now, what if we only want the points that are outside Dhaka? That’s what the <code>st_difference()</code> function under the <em>sf</em> package in R helps us to do. With <code>st_difference()</code>, we provide points first, followed by dhaka. This is very straightforward to implement:</p>
-<div class="sourceCode" id="cb375"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb375-1"><a href="working-with-vector-data-in-r.html#cb375-1"></a><span class="kw">st_difference</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb408"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb408-1"><a href="working-with-vector-data-in-r.html#cb408-1"></a><span class="kw">st_difference</span>()</span></code></pre></div>
 </div>
-<div id="area-calculation-in-r" class="section level2" number="10.4">
-<h2><span class="header-section-number">10.4</span> Area calculation in R</h2>
+<div id="area-calculation-in-r" class="section level2" number="11.4">
+<h2><span class="header-section-number">11.4</span> Area calculation in R</h2>
 <p>We can very easily calculate the area of all of the features of a polygon using <code>st_area()</code>. We use this to calculate the area, in square kilometers, of difference districts in Bangladesh. First, we transform the area using <code>st_tranform()</code> to Universal Transverse Mercator (UTM) with units in meters; this will make it easy to have the area in square kilometers. We’ll use the reprojected map of Bangladesh with UTM in <code>st_area()</code> and use an additional argument, byid = TRUE, so that it computes the area for all unique features (in this case, districts). Now, as <code>st_area()</code> returns in square units of whatever unit in which the map was fetched, we’ll get square meters returned by <code>st_area()</code>. So, divide this by 1,000 square to get square kilometers:</p>
-<div class="sourceCode" id="cb376"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb376-1"><a href="working-with-vector-data-in-r.html#cb376-1"></a><span class="kw">st_area</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb409"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb409-1"><a href="working-with-vector-data-in-r.html#cb409-1"></a><span class="kw">st_area</span>()</span></code></pre></div>
 </div>
-<div id="buffer" class="section level2" number="10.5">
-<h2><span class="header-section-number">10.5</span> Buffer</h2>
+<div id="buffer" class="section level2" number="11.5">
+<h2><span class="header-section-number">11.5</span> Buffer</h2>
 <p>Now we’ll learn how to create buffer around a vector file. Using this, we can create a buffer around a point, line, or polygon feature. Suppose we have a shapefile of railways in Dhaka named railway_dhaka.shp. Now, if we want a buffer around this railway, we can use the buŀer feature of the mmqgis plugin. The steps are for doing so are described here:</p>
-<div class="sourceCode" id="cb377"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb377-1"><a href="working-with-vector-data-in-r.html#cb377-1"></a>sf<span class="op">::</span><span class="kw">st_buffer</span>()</span></code></pre></div>
+<div class="sourceCode" id="cb410"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb410-1"><a href="working-with-vector-data-in-r.html#cb410-1"></a>sf<span class="op">::</span><span class="kw">st_buffer</span>()</span></code></pre></div>
 </div>
-<div id="intersection" class="section level2" number="10.6">
-<h2><span class="header-section-number">10.6</span> Intersection</h2>
+<div id="intersection" class="section level2" number="11.6">
+<h2><span class="header-section-number">11.6</span> Intersection</h2>
 <p>Intersection gives us back the intersection of two vector Łles. So, if we point vector data and line vector data, the intersection will give all of the point data that intersects with the line data. We will now use food court locations, saved as food_dhaka.shp, and see whether there are any food courts within a 0.5 radius of the railway line in Dhaka (contained in rail_buffer.shp); we interpret this by seeing all of the points where food_dhaka.shp intersects with rail_buffer.shp. We can do so by performing the following steps</p>
 </div>
-<div id="statistical-summary-of-vector-layers" class="section level2" number="10.7">
-<h2><span class="header-section-number">10.7</span> Statistical summary of vector layers</h2>
+<div id="statistical-summary-of-vector-layers" class="section level2" number="11.7">
+<h2><span class="header-section-number">11.7</span> Statistical summary of vector layers</h2>
 <p>Suppose we have a shapeŁle that has a numeric Łeld and we want to look at a summary of its statistics, including the count, mean, variance, and quantile. This can be very easily done using the Statistics panel of QGIS. We’ll now show the step-by-step process of doing this:</p>
 </div>
-<div id="summary-2" class="section level2" number="10.8">
-<h2><span class="header-section-number">10.8</span> Summary</h2>
+<div id="summary-2" class="section level2" number="11.8">
+<h2><span class="header-section-number">11.8</span> Summary</h2>
 <p>We learned how to use different tools in R and QGIS for working with vector data and modifying or creating new data by doing different operations such as merging, clipping, intersecting, creating buffers, and more. We also learned how to use different spatial queries in R. In doing so, we have seen how important it is for two different layers to have the same projection system.</p>
 <p>We haven’t touched upon many other tasks, such as using the rgeos package for calculating distance between geometries using <code>st_distance()</code> or using <code>st_union()</code> for taking the union of two shapefiles. With the tools you are equipped with now, you can easily understand other functionalities not covered here and should now be able to perform most of these data manipulation tasks.</p>
 

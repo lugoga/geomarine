@@ -4,11 +4,11 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 11 Working with raster data in R | Practical Spatial Data</title>
+  <title>Chapter 12 Working with raster data in R | Practical Spatial Data</title>
   <meta name="description" content="Dealing with spatial data for Coastal and Marine Environment in R is for people who want to analyze, visualize and model geographic data with open source software. It is based on R, a statistical programming language that has powerful data processing, manipulating, and visualizing spatial data. The book equips you with the knowledge and skills to tackle a wide range of issues manifested in geographic data, including those with scientific, societal, and environmental implications. This book will interest people from many backgrounds, especially Geographic Information Systems (GIS), who are interested in applying their domain-specific knowledge in a powerful open source language for data science, and R users interested in extending their skills to handle spatial data." />
   <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 11 Working with raster data in R | Practical Spatial Data" />
+  <meta property="og:title" content="Chapter 12 Working with raster data in R | Practical Spatial Data" />
   <meta property="og:type" content="book" />
   <meta property="og:url" content="https://lugoga.github.io/geomarine/" />
   <meta property="og:image" content="https://lugoga.github.io/geomarine/images/coverPage.svg" />
@@ -16,7 +16,7 @@
   <meta name="github-repo" content="lugoga/geomarine" />
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 11 Working with raster data in R | Practical Spatial Data" />
+  <meta name="twitter:title" content="Chapter 12 Working with raster data in R | Practical Spatial Data" />
   
   <meta name="twitter:description" content="Dealing with spatial data for Coastal and Marine Environment in R is for people who want to analyze, visualize and model geographic data with open source software. It is based on R, a statistical programming language that has powerful data processing, manipulating, and visualizing spatial data. The book equips you with the knowledge and skills to tackle a wide range of issues manifested in geographic data, including those with scientific, societal, and environmental implications. This book will interest people from many backgrounds, especially Geographic Information Systems (GIS), who are interested in applying their domain-specific knowledge in a powerful open source language for data science, and R users interested in extending their skills to handle spatial data." />
   <meta name="twitter:image" content="https://lugoga.github.io/geomarine/images/coverPage.svg" />
@@ -316,152 +316,173 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <li class="chapter" data-level="7.15" data-path="plotting-in-r-with-ggplot2.html"><a href="plotting-in-r-with-ggplot2.html#varying-fill-colors-along-the-x-axis"><i class="fa fa-check"></i><b>7.15</b> Varying fill colors along the x axis</a></li>
 <li class="chapter" data-level="7.16" data-path="plotting-in-r-with-ggplot2.html"><a href="plotting-in-r-with-ggplot2.html#metr"><i class="fa fa-check"></i><b>7.16</b> metR</a></li>
 </ul></li>
-<li class="chapter" data-level="8" data-path="feature.html"><a href="feature.html"><i class="fa fa-check"></i><b>8</b> Feature Representation</a>
+<li class="chapter" data-level="8" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html"><i class="fa fa-check"></i><b>8</b> A grammar for graphics</a>
 <ul>
-<li class="chapter" data-level="8.1" data-path="feature.html"><a href="feature.html#vector"><i class="fa fa-check"></i><b>8.1</b> Vector</a>
+<li class="chapter" data-level="8.1" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#geoms"><i class="fa fa-check"></i><b>8.1</b> geoms</a>
 <ul>
-<li class="chapter" data-level="8.1.1" data-path="feature.html"><a href="feature.html#a-point"><i class="fa fa-check"></i><b>8.1.1</b> A point</a></li>
-<li class="chapter" data-level="8.1.2" data-path="feature.html"><a href="feature.html#polyline"><i class="fa fa-check"></i><b>8.1.2</b> Polyline</a></li>
-<li class="chapter" data-level="8.1.3" data-path="feature.html"><a href="feature.html#polygon"><i class="fa fa-check"></i><b>8.1.3</b> Polygon</a></li>
+<li class="chapter" data-level="8.1.1" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#regression-line"><i class="fa fa-check"></i><b>8.1.1</b> Regression Line</a></li>
+<li class="chapter" data-level="8.1.2" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#horizontal-vertical-lines"><i class="fa fa-check"></i><b>8.1.2</b> Horizontal/ vertical lines</a></li>
 </ul></li>
-<li class="chapter" data-level="8.2" data-path="feature.html"><a href="feature.html#raster"><i class="fa fa-check"></i><b>8.2</b> Raster</a></li>
-<li class="chapter" data-level="8.3" data-path="feature.html"><a href="feature.html#important-gis-data-formats"><i class="fa fa-check"></i><b>8.3</b> Important GIS data formats</a>
+<li class="chapter" data-level="8.2" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#aes"><i class="fa fa-check"></i><b>8.2</b> aes()</a>
 <ul>
-<li class="chapter" data-level="8.3.1" data-path="feature.html"><a href="feature.html#shapefiles"><i class="fa fa-check"></i><b>8.3.1</b> Shapefiles</a></li>
-<li class="chapter" data-level="8.3.2" data-path="feature.html"><a href="feature.html#raster-1"><i class="fa fa-check"></i><b>8.3.2</b> Raster</a></li>
-<li class="chapter" data-level="8.3.3" data-path="feature.html"><a href="feature.html#attribute-tables"><i class="fa fa-check"></i><b>8.3.3</b> Attribute Tables</a></li>
-<li class="chapter" data-level="8.3.4" data-path="feature.html"><a href="feature.html#geodatabase"><i class="fa fa-check"></i><b>8.3.4</b> Geodatabase</a></li>
+<li class="chapter" data-level="8.2.1" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#color"><i class="fa fa-check"></i><b>8.2.1</b> Color</a></li>
+<li class="chapter" data-level="8.2.2" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#shape"><i class="fa fa-check"></i><b>8.2.2</b> shape</a></li>
 </ul></li>
-<li class="chapter" data-level="8.4" data-path="feature.html"><a href="feature.html#coordinate-reference-systems"><i class="fa fa-check"></i><b>8.4</b> Coordinate reference systems</a>
-<ul>
-<li class="chapter" data-level="8.4.1" data-path="feature.html"><a href="feature.html#geographic-coordinate-systems"><i class="fa fa-check"></i><b>8.4.1</b> Geographic coordinate systems</a></li>
-<li class="chapter" data-level="8.4.2" data-path="feature.html"><a href="feature.html#projected-coordinate-systems"><i class="fa fa-check"></i><b>8.4.2</b> Projected coordinate systems</a></li>
-<li class="chapter" data-level="8.4.3" data-path="feature.html"><a href="feature.html#setting-coordinate-reference-systems-in-r"><i class="fa fa-check"></i><b>8.4.3</b> Setting Coordinate Reference Systems in R</a></li>
+<li class="chapter" data-level="8.3" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#axis-and-labels"><i class="fa fa-check"></i><b>8.3</b> Axis and labels</a></li>
+<li class="chapter" data-level="8.4" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#text-annotaion"><i class="fa fa-check"></i><b>8.4</b> Text annotaion</a></li>
+<li class="chapter" data-level="8.5" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#scales"><i class="fa fa-check"></i><b>8.5</b> Scales</a></li>
+<li class="chapter" data-level="8.6" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#guides-1"><i class="fa fa-check"></i><b>8.6</b> Guides</a></li>
+<li class="chapter" data-level="8.7" data-path="a-grammar-for-graphics.html"><a href="a-grammar-for-graphics.html#themes"><i class="fa fa-check"></i><b>8.7</b> Themes</a></li>
 </ul></li>
-<li class="chapter" data-level="8.5" data-path="feature.html"><a href="feature.html#practicals"><i class="fa fa-check"></i><b>8.5</b> Practicals</a>
+<li class="chapter" data-level="9" data-path="feature.html"><a href="feature.html"><i class="fa fa-check"></i><b>9</b> Feature Representation</a>
 <ul>
-<li class="chapter" data-level="8.5.1" data-path="feature.html"><a href="feature.html#plotting-point-data"><i class="fa fa-check"></i><b>8.5.1</b> Plotting Point Data</a></li>
-<li class="chapter" data-level="8.5.2" data-path="feature.html"><a href="feature.html#geographic-coordinate-sytem"><i class="fa fa-check"></i><b>8.5.2</b> Geographic Coordinate Sytem</a></li>
+<li class="chapter" data-level="9.1" data-path="feature.html"><a href="feature.html#vector"><i class="fa fa-check"></i><b>9.1</b> Vector</a>
+<ul>
+<li class="chapter" data-level="9.1.1" data-path="feature.html"><a href="feature.html#a-point"><i class="fa fa-check"></i><b>9.1.1</b> A point</a></li>
+<li class="chapter" data-level="9.1.2" data-path="feature.html"><a href="feature.html#polyline"><i class="fa fa-check"></i><b>9.1.2</b> Polyline</a></li>
+<li class="chapter" data-level="9.1.3" data-path="feature.html"><a href="feature.html#polygon"><i class="fa fa-check"></i><b>9.1.3</b> Polygon</a></li>
 </ul></li>
-<li class="chapter" data-level="8.6" data-path="feature.html"><a href="feature.html#summary"><i class="fa fa-check"></i><b>8.6</b> Summary</a></li>
-<li class="chapter" data-level="8.7" data-path="feature.html"><a href="feature.html#questions"><i class="fa fa-check"></i><b>8.7</b> Questions</a></li>
-<li class="chapter" data-level="8.8" data-path="feature.html"><a href="feature.html#further-readings"><i class="fa fa-check"></i><b>8.8</b> FUrther readings</a></li>
+<li class="chapter" data-level="9.2" data-path="feature.html"><a href="feature.html#raster"><i class="fa fa-check"></i><b>9.2</b> Raster</a></li>
+<li class="chapter" data-level="9.3" data-path="feature.html"><a href="feature.html#important-gis-data-formats"><i class="fa fa-check"></i><b>9.3</b> Important GIS data formats</a>
+<ul>
+<li class="chapter" data-level="9.3.1" data-path="feature.html"><a href="feature.html#shapefiles"><i class="fa fa-check"></i><b>9.3.1</b> Shapefiles</a></li>
+<li class="chapter" data-level="9.3.2" data-path="feature.html"><a href="feature.html#raster-1"><i class="fa fa-check"></i><b>9.3.2</b> Raster</a></li>
+<li class="chapter" data-level="9.3.3" data-path="feature.html"><a href="feature.html#attribute-tables"><i class="fa fa-check"></i><b>9.3.3</b> Attribute Tables</a></li>
+<li class="chapter" data-level="9.3.4" data-path="feature.html"><a href="feature.html#geodatabase"><i class="fa fa-check"></i><b>9.3.4</b> Geodatabase</a></li>
 </ul></li>
-<li class="chapter" data-level="9" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html"><i class="fa fa-check"></i><b>9</b> Creating Geospatial Data</a>
+<li class="chapter" data-level="9.4" data-path="feature.html"><a href="feature.html#coordinate-reference-systems"><i class="fa fa-check"></i><b>9.4</b> Coordinate reference systems</a>
 <ul>
-<li class="chapter" data-level="9.1" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#getting-data-from-the-web"><i class="fa fa-check"></i><b>9.1</b> Getting data from the web</a>
-<ul>
-<li class="chapter" data-level="9.1.1" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#usage"><i class="fa fa-check"></i><b>9.1.1</b> Usage</a></li>
-<li class="chapter" data-level="9.1.2" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#to-download-natural-earth-data-not-already-in-the-package"><i class="fa fa-check"></i><b>9.1.2</b> To download Natural Earth data not already in the package</a></li>
+<li class="chapter" data-level="9.4.1" data-path="feature.html"><a href="feature.html#geographic-coordinate-systems"><i class="fa fa-check"></i><b>9.4.1</b> Geographic coordinate systems</a></li>
+<li class="chapter" data-level="9.4.2" data-path="feature.html"><a href="feature.html#projected-coordinate-systems"><i class="fa fa-check"></i><b>9.4.2</b> Projected coordinate systems</a></li>
+<li class="chapter" data-level="9.4.3" data-path="feature.html"><a href="feature.html#setting-coordinate-reference-systems-in-r"><i class="fa fa-check"></i><b>9.4.3</b> Setting Coordinate Reference Systems in R</a></li>
 </ul></li>
-<li class="chapter" data-level="9.2" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#creating-point-data"><i class="fa fa-check"></i><b>9.2</b> Creating Point Data</a>
+<li class="chapter" data-level="9.5" data-path="feature.html"><a href="feature.html#practicals"><i class="fa fa-check"></i><b>9.5</b> Practicals</a>
 <ul>
-<li class="chapter" data-level="9.2.1" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#creating-point-features"><i class="fa fa-check"></i><b>9.2.1</b> Creating point features</a></li>
-<li class="chapter" data-level="9.2.2" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#creating-line-features"><i class="fa fa-check"></i><b>9.2.2</b> Creating line features</a></li>
-<li class="chapter" data-level="9.2.3" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#creating-polygon-features"><i class="fa fa-check"></i><b>9.2.3</b> Creating Polygon features</a></li>
-<li class="chapter" data-level="9.2.4" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#adding-features-to-vector-data"><i class="fa fa-check"></i><b>9.2.4</b> Adding features to vector data</a></li>
-<li class="chapter" data-level="9.2.5" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#digitizing-a-map"><i class="fa fa-check"></i><b>9.2.5</b> Digitizing a map</a></li>
+<li class="chapter" data-level="9.5.1" data-path="feature.html"><a href="feature.html#plotting-point-data"><i class="fa fa-check"></i><b>9.5.1</b> Plotting Point Data</a></li>
+<li class="chapter" data-level="9.5.2" data-path="feature.html"><a href="feature.html#geographic-coordinate-sytem"><i class="fa fa-check"></i><b>9.5.2</b> Geographic Coordinate Sytem</a></li>
 </ul></li>
-<li class="chapter" data-level="9.3" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#summary-1"><i class="fa fa-check"></i><b>9.3</b> Summary</a></li>
-<li class="chapter" data-level="9.4" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#questions-1"><i class="fa fa-check"></i><b>9.4</b> Questions</a></li>
-<li class="chapter" data-level="9.5" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#further-reading"><i class="fa fa-check"></i><b>9.5</b> Further reading</a></li>
+<li class="chapter" data-level="9.6" data-path="feature.html"><a href="feature.html#summary"><i class="fa fa-check"></i><b>9.6</b> Summary</a></li>
+<li class="chapter" data-level="9.7" data-path="feature.html"><a href="feature.html#questions"><i class="fa fa-check"></i><b>9.7</b> Questions</a></li>
+<li class="chapter" data-level="9.8" data-path="feature.html"><a href="feature.html#further-readings"><i class="fa fa-check"></i><b>9.8</b> FUrther readings</a></li>
 </ul></li>
-<li class="chapter" data-level="10" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html"><i class="fa fa-check"></i><b>10</b> Working with vector data in R</a>
+<li class="chapter" data-level="10" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html"><i class="fa fa-check"></i><b>10</b> Creating Geospatial Data</a>
 <ul>
-<li class="chapter" data-level="10.1" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#combining-shapefile-in-r"><i class="fa fa-check"></i><b>10.1</b> Combining shapefile in R</a></li>
-<li class="chapter" data-level="10.2" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#clipping-in-r"><i class="fa fa-check"></i><b>10.2</b> Clipping in R</a></li>
-<li class="chapter" data-level="10.3" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#differences-in-r"><i class="fa fa-check"></i><b>10.3</b> DIfferences in R</a></li>
-<li class="chapter" data-level="10.4" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#area-calculation-in-r"><i class="fa fa-check"></i><b>10.4</b> Area calculation in R</a></li>
-<li class="chapter" data-level="10.5" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#buffer"><i class="fa fa-check"></i><b>10.5</b> Buffer</a></li>
-<li class="chapter" data-level="10.6" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#intersection"><i class="fa fa-check"></i><b>10.6</b> Intersection</a></li>
-<li class="chapter" data-level="10.7" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#statistical-summary-of-vector-layers"><i class="fa fa-check"></i><b>10.7</b> Statistical summary of vector layers</a></li>
-<li class="chapter" data-level="10.8" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#summary-2"><i class="fa fa-check"></i><b>10.8</b> Summary</a></li>
+<li class="chapter" data-level="10.1" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#getting-data-from-the-web"><i class="fa fa-check"></i><b>10.1</b> Getting data from the web</a>
+<ul>
+<li class="chapter" data-level="10.1.1" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#usage"><i class="fa fa-check"></i><b>10.1.1</b> Usage</a></li>
+<li class="chapter" data-level="10.1.2" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#to-download-natural-earth-data-not-already-in-the-package"><i class="fa fa-check"></i><b>10.1.2</b> To download Natural Earth data not already in the package</a></li>
 </ul></li>
-<li class="chapter" data-level="11" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html"><i class="fa fa-check"></i><b>11</b> Working with raster data in R</a>
+<li class="chapter" data-level="10.2" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#creating-point-data"><i class="fa fa-check"></i><b>10.2</b> Creating Point Data</a>
 <ul>
-<li class="chapter" data-level="11.1" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#nc-data"><i class="fa fa-check"></i><b>11.1</b> NC data</a></li>
-<li class="chapter" data-level="11.2" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#changing-the-projection-system-of-a-raster-file"><i class="fa fa-check"></i><b>11.2</b> Changing the projection system of a raster file</a>
-<ul>
-<li class="chapter" data-level="11.2.1" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#reading-tiff-format"><i class="fa fa-check"></i><b>11.2.1</b> Reading Tiff format</a></li>
-<li class="chapter" data-level="11.2.2" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#reclassifying-rasters"><i class="fa fa-check"></i><b>11.2.2</b> Reclassifying rasters</a></li>
-<li class="chapter" data-level="11.2.3" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#mapping-raster"><i class="fa fa-check"></i><b>11.2.3</b> Mapping raster</a></li>
+<li class="chapter" data-level="10.2.1" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#creating-point-features"><i class="fa fa-check"></i><b>10.2.1</b> Creating point features</a></li>
+<li class="chapter" data-level="10.2.2" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#creating-line-features"><i class="fa fa-check"></i><b>10.2.2</b> Creating line features</a></li>
+<li class="chapter" data-level="10.2.3" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#creating-polygon-features"><i class="fa fa-check"></i><b>10.2.3</b> Creating Polygon features</a></li>
+<li class="chapter" data-level="10.2.4" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#adding-features-to-vector-data"><i class="fa fa-check"></i><b>10.2.4</b> Adding features to vector data</a></li>
+<li class="chapter" data-level="10.2.5" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#digitizing-a-map"><i class="fa fa-check"></i><b>10.2.5</b> Digitizing a map</a></li>
 </ul></li>
-<li class="chapter" data-level="11.3" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#summary-3"><i class="fa fa-check"></i><b>11.3</b> Summary</a></li>
-<li class="chapter" data-level="11.4" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#questions-2"><i class="fa fa-check"></i><b>11.4</b> Questions</a></li>
+<li class="chapter" data-level="10.3" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#summary-1"><i class="fa fa-check"></i><b>10.3</b> Summary</a></li>
+<li class="chapter" data-level="10.4" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#questions-1"><i class="fa fa-check"></i><b>10.4</b> Questions</a></li>
+<li class="chapter" data-level="10.5" data-path="creating-geospatial-data.html"><a href="creating-geospatial-data.html#further-reading"><i class="fa fa-check"></i><b>10.5</b> Further reading</a></li>
 </ul></li>
-<li class="chapter" data-level="12" data-path="maps.html"><a href="maps.html"><i class="fa fa-check"></i><b>12</b> Maps</a>
+<li class="chapter" data-level="11" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html"><i class="fa fa-check"></i><b>11</b> Working with vector data in R</a>
 <ul>
-<li class="chapter" data-level="12.1" data-path="maps.html"><a href="maps.html#geographical-data-in-a-tidy-format"><i class="fa fa-check"></i><b>12.1</b> Geographical data in a tidy format</a>
-<ul>
-<li class="chapter" data-level="12.1.1" data-path="maps.html"><a href="maps.html#create-simple-feature-from-data.frame"><i class="fa fa-check"></i><b>12.1.1</b> Create simple feature from data.frame</a></li>
-<li class="chapter" data-level="12.1.2" data-path="maps.html"><a href="maps.html#importing-shapefile"><i class="fa fa-check"></i><b>12.1.2</b> Importing shapefile</a></li>
-<li class="chapter" data-level="12.1.3" data-path="maps.html"><a href="maps.html#reading-other-format"><i class="fa fa-check"></i><b>12.1.3</b> Reading other format</a></li>
+<li class="chapter" data-level="11.1" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#combining-shapefile-in-r"><i class="fa fa-check"></i><b>11.1</b> Combining shapefile in R</a></li>
+<li class="chapter" data-level="11.2" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#clipping-in-r"><i class="fa fa-check"></i><b>11.2</b> Clipping in R</a></li>
+<li class="chapter" data-level="11.3" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#differences-in-r"><i class="fa fa-check"></i><b>11.3</b> DIfferences in R</a></li>
+<li class="chapter" data-level="11.4" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#area-calculation-in-r"><i class="fa fa-check"></i><b>11.4</b> Area calculation in R</a></li>
+<li class="chapter" data-level="11.5" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#buffer"><i class="fa fa-check"></i><b>11.5</b> Buffer</a></li>
+<li class="chapter" data-level="11.6" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#intersection"><i class="fa fa-check"></i><b>11.6</b> Intersection</a></li>
+<li class="chapter" data-level="11.7" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#statistical-summary-of-vector-layers"><i class="fa fa-check"></i><b>11.7</b> Statistical summary of vector layers</a></li>
+<li class="chapter" data-level="11.8" data-path="working-with-vector-data-in-r.html"><a href="working-with-vector-data-in-r.html#summary-2"><i class="fa fa-check"></i><b>11.8</b> Summary</a></li>
 </ul></li>
-<li class="chapter" data-level="12.2" data-path="maps.html"><a href="maps.html#introduction"><i class="fa fa-check"></i><b>12.2</b> Introduction</a></li>
-<li class="chapter" data-level="12.3" data-path="maps.html"><a href="maps.html#static-maps"><i class="fa fa-check"></i><b>12.3</b> Static Maps</a>
+<li class="chapter" data-level="12" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html"><i class="fa fa-check"></i><b>12</b> Working with raster data in R</a>
 <ul>
-<li class="chapter" data-level="12.3.1" data-path="maps.html"><a href="maps.html#the-bathmetry-data"><i class="fa fa-check"></i><b>12.3.1</b> The bathmetry data</a></li>
+<li class="chapter" data-level="12.1" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#nc-data"><i class="fa fa-check"></i><b>12.1</b> NC data</a></li>
+<li class="chapter" data-level="12.2" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#changing-the-projection-system-of-a-raster-file"><i class="fa fa-check"></i><b>12.2</b> Changing the projection system of a raster file</a>
+<ul>
+<li class="chapter" data-level="12.2.1" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#reading-tiff-format"><i class="fa fa-check"></i><b>12.2.1</b> Reading Tiff format</a></li>
+<li class="chapter" data-level="12.2.2" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#reclassifying-rasters"><i class="fa fa-check"></i><b>12.2.2</b> Reclassifying rasters</a></li>
+<li class="chapter" data-level="12.2.3" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#mapping-raster"><i class="fa fa-check"></i><b>12.2.3</b> Mapping raster</a></li>
 </ul></li>
-<li class="chapter" data-level="12.4" data-path="maps.html"><a href="maps.html#basemap"><i class="fa fa-check"></i><b>12.4</b> Basemap</a></li>
-<li class="chapter" data-level="12.5" data-path="maps.html"><a href="maps.html#creating-contour-map"><i class="fa fa-check"></i><b>12.5</b> Creating contour map</a></li>
-<li class="chapter" data-level="12.6" data-path="maps.html"><a href="maps.html#inset-maps"><i class="fa fa-check"></i><b>12.6</b> Inset maps</a>
-<ul>
-<li class="chapter" data-level="12.6.1" data-path="maps.html"><a href="maps.html#choropleth-maps"><i class="fa fa-check"></i><b>12.6.1</b> Choropleth maps</a></li>
+<li class="chapter" data-level="12.3" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#summary-3"><i class="fa fa-check"></i><b>12.3</b> Summary</a></li>
+<li class="chapter" data-level="12.4" data-path="working-with-raster-data-in-r.html"><a href="working-with-raster-data-in-r.html#questions-2"><i class="fa fa-check"></i><b>12.4</b> Questions</a></li>
 </ul></li>
-<li class="chapter" data-level="12.7" data-path="maps.html"><a href="maps.html#animated-maps"><i class="fa fa-check"></i><b>12.7</b> Animated maps</a></li>
-<li class="chapter" data-level="12.8" data-path="maps.html"><a href="maps.html#interactive-maps"><i class="fa fa-check"></i><b>12.8</b> Interactive maps</a></li>
+<li class="chapter" data-level="13" data-path="maps.html"><a href="maps.html"><i class="fa fa-check"></i><b>13</b> Maps</a>
+<ul>
+<li class="chapter" data-level="13.1" data-path="maps.html"><a href="maps.html#geographical-data-in-a-tidy-format"><i class="fa fa-check"></i><b>13.1</b> Geographical data in a tidy format</a>
+<ul>
+<li class="chapter" data-level="13.1.1" data-path="maps.html"><a href="maps.html#create-simple-feature-from-data.frame"><i class="fa fa-check"></i><b>13.1.1</b> Create simple feature from data.frame</a></li>
+<li class="chapter" data-level="13.1.2" data-path="maps.html"><a href="maps.html#importing-shapefile"><i class="fa fa-check"></i><b>13.1.2</b> Importing shapefile</a></li>
+<li class="chapter" data-level="13.1.3" data-path="maps.html"><a href="maps.html#reading-other-format"><i class="fa fa-check"></i><b>13.1.3</b> Reading other format</a></li>
 </ul></li>
-<li class="chapter" data-level="13" data-path="c20.html"><a href="c20.html"><i class="fa fa-check"></i><b>13</b> Appendices</a>
+<li class="chapter" data-level="13.2" data-path="maps.html"><a href="maps.html#introduction"><i class="fa fa-check"></i><b>13.2</b> Introduction</a></li>
+<li class="chapter" data-level="13.3" data-path="maps.html"><a href="maps.html#static-maps"><i class="fa fa-check"></i><b>13.3</b> Static Maps</a>
 <ul>
-<li class="chapter" data-level="13.1" data-path="c20.html"><a href="c20.html#practical-a-getting-started"><i class="fa fa-check"></i><b>13.1</b> Practical A: Getting started</a>
-<ul>
-<li class="chapter" data-level="13.1.1" data-path="c20.html"><a href="c20.html#install-necessary-packages"><i class="fa fa-check"></i><b>13.1.1</b> Install necessary packages</a></li>
-<li class="chapter" data-level="13.1.2" data-path="c20.html"><a href="c20.html#create-an-rstudio-project"><i class="fa fa-check"></i><b>13.1.2</b> Create An Rstudio Project</a></li>
-<li class="chapter" data-level="13.1.3" data-path="c20.html"><a href="c20.html#create-an-r-markdown-file"><i class="fa fa-check"></i><b>13.1.3</b> Create an R Markdown file</a></li>
-<li class="chapter" data-level="13.1.4" data-path="c20.html"><a href="c20.html#create-new-folders"><i class="fa fa-check"></i><b>13.1.4</b> Create New folders</a></li>
+<li class="chapter" data-level="13.3.1" data-path="maps.html"><a href="maps.html#the-bathmetry-data"><i class="fa fa-check"></i><b>13.3.1</b> The bathmetry data</a></li>
 </ul></li>
-<li class="chapter" data-level="13.2" data-path="c20.html"><a href="c20.html#practical-b-working-with-climate-data"><i class="fa fa-check"></i><b>13.2</b> Practical B: Working with climate data</a>
+<li class="chapter" data-level="13.4" data-path="maps.html"><a href="maps.html#basemap"><i class="fa fa-check"></i><b>13.4</b> Basemap</a></li>
+<li class="chapter" data-level="13.5" data-path="maps.html"><a href="maps.html#creating-contour-map"><i class="fa fa-check"></i><b>13.5</b> Creating contour map</a></li>
+<li class="chapter" data-level="13.6" data-path="maps.html"><a href="maps.html#inset-maps"><i class="fa fa-check"></i><b>13.6</b> Inset maps</a>
 <ul>
-<li class="chapter" data-level="13.2.1" data-path="c20.html"><a href="c20.html#part-1-rasters"><i class="fa fa-check"></i><b>13.2.1</b> Part 1: rasters</a></li>
-<li class="chapter" data-level="13.2.2" data-path="c20.html"><a href="c20.html#part-2-descriptive-statistics"><i class="fa fa-check"></i><b>13.2.2</b> Part 2 descriptive statistics</a></li>
-<li class="chapter" data-level="13.2.3" data-path="c20.html"><a href="c20.html#using-more-data"><i class="fa fa-check"></i><b>13.2.3</b> Using more data</a></li>
-<li class="chapter" data-level="13.2.4" data-path="c20.html"><a href="c20.html#wind"><i class="fa fa-check"></i><b>13.2.4</b> Wind</a></li>
-<li class="chapter" data-level="13.2.5" data-path="c20.html"><a href="c20.html#precipitation"><i class="fa fa-check"></i><b>13.2.5</b> Precipitation</a></li>
-<li class="chapter" data-level="13.2.6" data-path="c20.html"><a href="c20.html#advanced-analysis"><i class="fa fa-check"></i><b>13.2.6</b> Advanced analysis</a></li>
-<li class="chapter" data-level="13.2.7" data-path="c20.html"><a href="c20.html#stars-package"><i class="fa fa-check"></i><b>13.2.7</b> stars package</a></li>
-<li class="chapter" data-level="13.2.8" data-path="c20.html"><a href="c20.html#dplyr-package"><i class="fa fa-check"></i><b>13.2.8</b> dplyr package</a></li>
-<li class="chapter" data-level="13.2.9" data-path="c20.html"><a href="c20.html#cubelyr"><i class="fa fa-check"></i><b>13.2.9</b> cubelyr</a></li>
+<li class="chapter" data-level="13.6.1" data-path="maps.html"><a href="maps.html#choropleth-maps"><i class="fa fa-check"></i><b>13.6.1</b> Choropleth maps</a></li>
 </ul></li>
-<li class="chapter" data-level="13.3" data-path="c20.html"><a href="c20.html#practical-c-finding-loading-and-cleaning-spatial-data"><i class="fa fa-check"></i><b>13.3</b> Practical C: Finding, loading, and cleaning Spatial data</a>
-<ul>
-<li class="chapter" data-level="13.3.1" data-path="c20.html"><a href="c20.html#thinking-about-map-data-the-way-r-does"><i class="fa fa-check"></i><b>13.3.1</b> Thinking about map data the way R does</a></li>
-<li class="chapter" data-level="13.3.2" data-path="c20.html"><a href="c20.html#a-brief-introduction-to-simple-features-data-in-r"><i class="fa fa-check"></i><b>13.3.2</b> A brief introduction to simple features data in R</a></li>
-<li class="chapter" data-level="13.3.3" data-path="c20.html"><a href="c20.html#finding-data"><i class="fa fa-check"></i><b>13.3.3</b> Finding data</a></li>
-<li class="chapter" data-level="13.3.4" data-path="c20.html"><a href="c20.html#finding-non-geospatial-data"><i class="fa fa-check"></i><b>13.3.4</b> Finding non-geospatial data</a></li>
-<li class="chapter" data-level="13.3.5" data-path="c20.html"><a href="c20.html#combining-spatial-data-with-non-spatial-data"><i class="fa fa-check"></i><b>13.3.5</b> Combining spatial data with non-spatial data</a></li>
-<li class="chapter" data-level="13.3.6" data-path="c20.html"><a href="c20.html#conclusion"><i class="fa fa-check"></i><b>13.3.6</b> Conclusion</a></li>
+<li class="chapter" data-level="13.7" data-path="maps.html"><a href="maps.html#animated-maps"><i class="fa fa-check"></i><b>13.7</b> Animated maps</a></li>
+<li class="chapter" data-level="13.8" data-path="maps.html"><a href="maps.html#interactive-maps"><i class="fa fa-check"></i><b>13.8</b> Interactive maps</a></li>
 </ul></li>
-<li class="chapter" data-level="13.4" data-path="c20.html"><a href="c20.html#practical-d-making-maps-with-ggplot2"><i class="fa fa-check"></i><b>13.4</b> Practical D: Making maps with ggplot2</a>
+<li class="chapter" data-level="14" data-path="c20.html"><a href="c20.html"><i class="fa fa-check"></i><b>14</b> Appendices</a>
 <ul>
-<li class="chapter" data-level="13.4.1" data-path="c20.html"><a href="c20.html#import-and-clean-the-datasets"><i class="fa fa-check"></i><b>13.4.1</b> Import and clean the datasets</a></li>
-<li class="chapter" data-level="13.4.2" data-path="c20.html"><a href="c20.html#add-highlights-and-annotations"><i class="fa fa-check"></i><b>13.4.2</b> Add highlights and annotations</a></li>
-<li class="chapter" data-level="13.4.3" data-path="c20.html"><a href="c20.html#inset-map"><i class="fa fa-check"></i><b>13.4.3</b> inset map</a></li>
-<li class="chapter" data-level="13.4.4" data-path="c20.html"><a href="c20.html#final-beautification"><i class="fa fa-check"></i><b>13.4.4</b> Final beautification</a></li>
+<li class="chapter" data-level="14.1" data-path="c20.html"><a href="c20.html#practical-a-getting-started"><i class="fa fa-check"></i><b>14.1</b> Practical A: Getting started</a>
+<ul>
+<li class="chapter" data-level="14.1.1" data-path="c20.html"><a href="c20.html#install-necessary-packages"><i class="fa fa-check"></i><b>14.1.1</b> Install necessary packages</a></li>
+<li class="chapter" data-level="14.1.2" data-path="c20.html"><a href="c20.html#create-an-rstudio-project"><i class="fa fa-check"></i><b>14.1.2</b> Create An Rstudio Project</a></li>
+<li class="chapter" data-level="14.1.3" data-path="c20.html"><a href="c20.html#create-an-r-markdown-file"><i class="fa fa-check"></i><b>14.1.3</b> Create an R Markdown file</a></li>
+<li class="chapter" data-level="14.1.4" data-path="c20.html"><a href="c20.html#create-new-folders"><i class="fa fa-check"></i><b>14.1.4</b> Create New folders</a></li>
 </ul></li>
-<li class="chapter" data-level="13.5" data-path="c20.html"><a href="c20.html#practical-e-the-bathmetry-data"><i class="fa fa-check"></i><b>13.5</b> Practical E: The bathmetry data</a>
+<li class="chapter" data-level="14.2" data-path="c20.html"><a href="c20.html#practical-b-working-with-climate-data"><i class="fa fa-check"></i><b>14.2</b> Practical B: Working with climate data</a>
 <ul>
-<li class="chapter" data-level="13.5.1" data-path="c20.html"><a href="c20.html#zoom-in-on-a-region-of-interest"><i class="fa fa-check"></i><b>13.5.1</b> Zoom in on a region of interest</a></li>
+<li class="chapter" data-level="14.2.1" data-path="c20.html"><a href="c20.html#part-1-rasters"><i class="fa fa-check"></i><b>14.2.1</b> Part 1: rasters</a></li>
+<li class="chapter" data-level="14.2.2" data-path="c20.html"><a href="c20.html#part-2-descriptive-statistics"><i class="fa fa-check"></i><b>14.2.2</b> Part 2 descriptive statistics</a></li>
+<li class="chapter" data-level="14.2.3" data-path="c20.html"><a href="c20.html#using-more-data"><i class="fa fa-check"></i><b>14.2.3</b> Using more data</a></li>
+<li class="chapter" data-level="14.2.4" data-path="c20.html"><a href="c20.html#wind"><i class="fa fa-check"></i><b>14.2.4</b> Wind</a></li>
+<li class="chapter" data-level="14.2.5" data-path="c20.html"><a href="c20.html#precipitation"><i class="fa fa-check"></i><b>14.2.5</b> Precipitation</a></li>
+<li class="chapter" data-level="14.2.6" data-path="c20.html"><a href="c20.html#advanced-analysis"><i class="fa fa-check"></i><b>14.2.6</b> Advanced analysis</a></li>
+<li class="chapter" data-level="14.2.7" data-path="c20.html"><a href="c20.html#stars-package"><i class="fa fa-check"></i><b>14.2.7</b> stars package</a></li>
 </ul></li>
-<li class="chapter" data-level="13.6" data-path="c20.html"><a href="c20.html#practical-f-drawing-maps-programmatically-with-r"><i class="fa fa-check"></i><b>13.6</b> Practical F: Drawing maps programmatically with R</a>
+<li class="chapter" data-level="14.3" data-path="c20.html"><a href="c20.html#practical-c-handling-projections-and-coordinate-systems"><i class="fa fa-check"></i><b>14.3</b> Practical C: Handling Projections and Coordinate Systems</a>
 <ul>
-<li class="chapter" data-level="13.6.1" data-path="c20.html"><a href="c20.html#a-solution-using-r-and-its-ecosystem-of-packages"><i class="fa fa-check"></i><b>13.6.1</b> A solution using R and its ecosystem of packages</a></li>
-<li class="chapter" data-level="13.6.2" data-path="c20.html"><a href="c20.html#getting-started"><i class="fa fa-check"></i><b>13.6.2</b> Getting started</a></li>
-<li class="chapter" data-level="13.6.3" data-path="c20.html"><a href="c20.html#data-and-basic-plot-ggplot-and-geom_sf"><i class="fa fa-check"></i><b>13.6.3</b> Data and basic plot (<code>ggplot</code> and <code>geom_sf</code>)</a></li>
-<li class="chapter" data-level="13.6.4" data-path="c20.html"><a href="c20.html#title-subtitle-and-axis-labels-ggtitle-xlab-ylab"><i class="fa fa-check"></i><b>13.6.4</b> Title, subtitle, and axis labels (<code>ggtitle</code>, <code>xlab</code>, <code>ylab</code>)</a></li>
-<li class="chapter" data-level="13.6.5" data-path="c20.html"><a href="c20.html#map-color-geom_sf"><i class="fa fa-check"></i><b>13.6.5</b> Map color (<code>geom_sf</code>)</a></li>
-<li class="chapter" data-level="13.6.6" data-path="c20.html"><a href="c20.html#projection-and-extent-coord_sf"><i class="fa fa-check"></i><b>13.6.6</b> Projection and extent (<code>coord_sf</code>)</a></li>
-<li class="chapter" data-level="13.6.7" data-path="c20.html"><a href="c20.html#scale-bar-and-north-arrow-package-ggspatial"><i class="fa fa-check"></i><b>13.6.7</b> Scale bar and North arrow (package <code>ggspatial</code>)</a></li>
-<li class="chapter" data-level="13.6.8" data-path="c20.html"><a href="c20.html#country-names-and-other-names-geom_text-and-annotate"><i class="fa fa-check"></i><b>13.6.8</b> Country names and other names (<code>geom_text</code> and <code>annotate</code>)</a></li>
+<li class="chapter" data-level="14.3.1" data-path="c20.html"><a href="c20.html#assigning-coordinate-reference-system"><i class="fa fa-check"></i><b>14.3.1</b> Assigning Coordinate reference system</a></li>
+<li class="chapter" data-level="14.3.2" data-path="c20.html"><a href="c20.html#transforming-coordinate-system"><i class="fa fa-check"></i><b>14.3.2</b> Transforming coordinate System</a></li>
+</ul></li>
+<li class="chapter" data-level="14.4" data-path="c20.html"><a href="c20.html#practical-d-finding-loading-and-cleaning-spatial-data"><i class="fa fa-check"></i><b>14.4</b> Practical D: Finding, loading, and cleaning Spatial data</a>
+<ul>
+<li class="chapter" data-level="14.4.1" data-path="c20.html"><a href="c20.html#thinking-about-map-data-the-way-r-does"><i class="fa fa-check"></i><b>14.4.1</b> Thinking about map data the way R does</a></li>
+<li class="chapter" data-level="14.4.2" data-path="c20.html"><a href="c20.html#a-brief-introduction-to-simple-features-data-in-r"><i class="fa fa-check"></i><b>14.4.2</b> A brief introduction to simple features data in R</a></li>
+<li class="chapter" data-level="14.4.3" data-path="c20.html"><a href="c20.html#finding-data"><i class="fa fa-check"></i><b>14.4.3</b> Finding data</a></li>
+<li class="chapter" data-level="14.4.4" data-path="c20.html"><a href="c20.html#finding-non-geospatial-data"><i class="fa fa-check"></i><b>14.4.4</b> Finding non-geospatial data</a></li>
+<li class="chapter" data-level="14.4.5" data-path="c20.html"><a href="c20.html#combining-spatial-data-with-non-spatial-data"><i class="fa fa-check"></i><b>14.4.5</b> Combining spatial data with non-spatial data</a></li>
+<li class="chapter" data-level="14.4.6" data-path="c20.html"><a href="c20.html#conclusion"><i class="fa fa-check"></i><b>14.4.6</b> Conclusion</a></li>
+</ul></li>
+<li class="chapter" data-level="14.5" data-path="c20.html"><a href="c20.html#practical-e-making-maps-with-ggplot2"><i class="fa fa-check"></i><b>14.5</b> Practical E: Making maps with ggplot2</a>
+<ul>
+<li class="chapter" data-level="14.5.1" data-path="c20.html"><a href="c20.html#import-and-clean-the-datasets"><i class="fa fa-check"></i><b>14.5.1</b> Import and clean the datasets</a></li>
+<li class="chapter" data-level="14.5.2" data-path="c20.html"><a href="c20.html#add-highlights-and-annotations"><i class="fa fa-check"></i><b>14.5.2</b> Add highlights and annotations</a></li>
+<li class="chapter" data-level="14.5.3" data-path="c20.html"><a href="c20.html#inset-map"><i class="fa fa-check"></i><b>14.5.3</b> inset map</a></li>
+<li class="chapter" data-level="14.5.4" data-path="c20.html"><a href="c20.html#final-beautification"><i class="fa fa-check"></i><b>14.5.4</b> Final beautification</a></li>
+</ul></li>
+<li class="chapter" data-level="14.6" data-path="c20.html"><a href="c20.html#practical-f-the-bathmetry-data"><i class="fa fa-check"></i><b>14.6</b> Practical F: The bathmetry data</a>
+<ul>
+<li class="chapter" data-level="14.6.1" data-path="c20.html"><a href="c20.html#zoom-in-on-a-region-of-interest"><i class="fa fa-check"></i><b>14.6.1</b> Zoom in on a region of interest</a></li>
+</ul></li>
+<li class="chapter" data-level="14.7" data-path="c20.html"><a href="c20.html#practical-g-drawing-maps-programmatically-with-r"><i class="fa fa-check"></i><b>14.7</b> Practical G: Drawing maps programmatically with R</a>
+<ul>
+<li class="chapter" data-level="14.7.1" data-path="c20.html"><a href="c20.html#a-solution-using-r-and-its-ecosystem-of-packages"><i class="fa fa-check"></i><b>14.7.1</b> A solution using R and its ecosystem of packages</a></li>
+<li class="chapter" data-level="14.7.2" data-path="c20.html"><a href="c20.html#getting-started"><i class="fa fa-check"></i><b>14.7.2</b> Getting started</a></li>
+<li class="chapter" data-level="14.7.3" data-path="c20.html"><a href="c20.html#data-and-basic-plot-ggplot-and-geom_sf"><i class="fa fa-check"></i><b>14.7.3</b> Data and basic plot (<code>ggplot</code> and <code>geom_sf</code>)</a></li>
+<li class="chapter" data-level="14.7.4" data-path="c20.html"><a href="c20.html#title-subtitle-and-axis-labels-ggtitle-xlab-ylab"><i class="fa fa-check"></i><b>14.7.4</b> Title, subtitle, and axis labels (<code>ggtitle</code>, <code>xlab</code>, <code>ylab</code>)</a></li>
+<li class="chapter" data-level="14.7.5" data-path="c20.html"><a href="c20.html#map-color-geom_sf"><i class="fa fa-check"></i><b>14.7.5</b> Map color (<code>geom_sf</code>)</a></li>
+<li class="chapter" data-level="14.7.6" data-path="c20.html"><a href="c20.html#projection-and-extent-coord_sf"><i class="fa fa-check"></i><b>14.7.6</b> Projection and extent (<code>coord_sf</code>)</a></li>
+<li class="chapter" data-level="14.7.7" data-path="c20.html"><a href="c20.html#scale-bar-and-north-arrow-package-ggspatial"><i class="fa fa-check"></i><b>14.7.7</b> Scale bar and North arrow (package <code>ggspatial</code>)</a></li>
+<li class="chapter" data-level="14.7.8" data-path="c20.html"><a href="c20.html#country-names-and-other-names-geom_text-and-annotate"><i class="fa fa-check"></i><b>14.7.8</b> Country names and other names (<code>geom_text</code> and <code>annotate</code>)</a></li>
 </ul></li>
 </ul></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
@@ -505,14 +526,14 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="working-with-raster-data-in-r" class="section level1" number="11">
-<h1><span class="header-section-number">Chapter 11</span> Working with raster data in R</h1>
+<div id="working-with-raster-data-in-r" class="section level1" number="12">
+<h1><span class="header-section-number">Chapter 12</span> Working with raster data in R</h1>
 <p>The two common raster data format widely used in science are <code>.nc</code> and <code>.tiff</code>. R has some dedicated packages for working with these type of raster data. We can use <strong>raster</strong> <span class="citation">(Hijmans <a href="#ref-raster" role="doc-biblioref">2020</a>)</span>, <strong>ncdf4</strong> <span class="citation">(Pierce <a href="#ref-ncdf4" role="doc-biblioref">2019</a>)</span>, and more to analyze raster data in R.</p>
-<div id="nc-data" class="section level2" number="11.1">
-<h2><span class="header-section-number">11.1</span> NC data</h2>
+<div id="nc-data" class="section level2" number="12.1">
+<h2><span class="header-section-number">12.1</span> NC data</h2>
 <p>We begin with nc data format. We can use the <code>nc_open()</code> function of <strong>ncdf4</strong> package to R to read the metadata of raster data in NC format. Let’s read the metadata of ocean current stored in nc format:</p>
-<div class="sourceCode" id="cb378"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb378-1"><a href="working-with-raster-data-in-r.html#cb378-1"></a>wind =<span class="st"> </span>ncdf4<span class="op">::</span><span class="kw">nc_open</span>(<span class="st">&quot;data/nc/wio_geostrophic_uv_july_2015.nc&quot;</span>)</span>
-<span id="cb378-2"><a href="working-with-raster-data-in-r.html#cb378-2"></a>wind</span></code></pre></div>
+<div class="sourceCode" id="cb411"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb411-1"><a href="working-with-raster-data-in-r.html#cb411-1"></a>wind =<span class="st"> </span>ncdf4<span class="op">::</span><span class="kw">nc_open</span>(<span class="st">&quot;data/nc/wio_geostrophic_uv_july_2015.nc&quot;</span>)</span>
+<span id="cb411-2"><a href="working-with-raster-data-in-r.html#cb411-2"></a>wind</span></code></pre></div>
 <pre><code>File data/nc/wio_geostrophic_uv_july_2015.nc (NC_FORMAT_CLASSIC):
 
      3 variables (excluding dimension variables):
@@ -579,7 +600,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
         longitude_min: 19.875
         longitude_max: 119.875</code></pre>
 <p>This will give us the metadata of this Absolute geostrophic velocity image, where we can see that it has zonal velocity (U) and meridional velocity (V) at each longitude and latitude within the region for 30 days in July 2015, UTM projection, and WGS84 as datum. The metadata is complex, let us make it easy using a tidy format table with the <strong>tidync</strong> package</p>
-<div class="sourceCode" id="cb380"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb380-1"><a href="working-with-raster-data-in-r.html#cb380-1"></a>tidync<span class="op">::</span><span class="kw">tidync</span>(<span class="st">&quot;data/nc/wio_geostrophic_uv_july_2015.nc&quot;</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb413"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb413-1"><a href="working-with-raster-data-in-r.html#cb413-1"></a>tidync<span class="op">::</span><span class="kw">tidync</span>(<span class="st">&quot;data/nc/wio_geostrophic_uv_july_2015.nc&quot;</span>)</span></code></pre></div>
 <pre><code>
 Data Source (1): wio_geostrophic_uv_july_2015.nc ...
 
@@ -600,7 +621,7 @@ Dimensions 3 (all active):
 3 D2    lon      401    19.9 1.20e2     1   401    19.9 1.20e2 FALSE 
 # ... with 1 more variable: coord_dim &lt;lgl&gt; </code></pre>
 <p>Often the tidync gives data in Julian, that is another challenges for people unfamiliar with this date format. Fortunate, R has a a nc2time function from <strong>oceanmap</strong> package <span class="citation">(Bauer <a href="#ref-oceanmap" role="doc-biblioref">2020</a>)</span>, which can turn this complex of <code>julian</code> day into <code>gregorian</code> calender with a single line of code as shown below;</p>
-<div class="sourceCode" id="cb382"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb382-1"><a href="working-with-raster-data-in-r.html#cb382-1"></a>oceanmap<span class="op">::</span><span class="kw">nc2time</span>(wind)</span></code></pre></div>
+<div class="sourceCode" id="cb415"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb415-1"><a href="working-with-raster-data-in-r.html#cb415-1"></a>oceanmap<span class="op">::</span><span class="kw">nc2time</span>(wind)</span></code></pre></div>
 <pre><code> [1] &quot;2015-07-01&quot; &quot;2015-07-02&quot; &quot;2015-07-03&quot; &quot;2015-07-04&quot; &quot;2015-07-05&quot;
  [6] &quot;2015-07-06&quot; &quot;2015-07-07&quot; &quot;2015-07-08&quot; &quot;2015-07-09&quot; &quot;2015-07-10&quot;
 [11] &quot;2015-07-11&quot; &quot;2015-07-12&quot; &quot;2015-07-13&quot; &quot;2015-07-14&quot; &quot;2015-07-15&quot;
@@ -609,11 +630,11 @@ Dimensions 3 (all active):
 [26] &quot;2015-07-26&quot; &quot;2015-07-27&quot; &quot;2015-07-28&quot; &quot;2015-07-29&quot; &quot;2015-07-30&quot;
 [31] &quot;2015-07-31&quot;</code></pre>
 </div>
-<div id="changing-the-projection-system-of-a-raster-file" class="section level2" number="11.2">
-<h2><span class="header-section-number">11.2</span> Changing the projection system of a raster file</h2>
+<div id="changing-the-projection-system-of-a-raster-file" class="section level2" number="12.2">
+<h2><span class="header-section-number">12.2</span> Changing the projection system of a raster file</h2>
 <p>We can change the projection system of a raster file using the <code>epsg</code> code to <code>wgs84</code> as follows</p>
-<div class="sourceCode" id="cb384"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb384-1"><a href="working-with-raster-data-in-r.html#cb384-1"></a>raster<span class="op">::</span><span class="kw">raster</span>(<span class="st">&quot;data/nc/wio_geostrophic_uv_july_2015.nc&quot;</span>, <span class="dt">band =</span> <span class="dv">30</span>) <span class="op">%&gt;%</span></span>
-<span id="cb384-2"><a href="working-with-raster-data-in-r.html#cb384-2"></a><span class="st">  </span>raster<span class="op">::</span><span class="kw">projectRaster</span>(<span class="dt">crs =</span> <span class="dv">4326</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb417"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb417-1"><a href="working-with-raster-data-in-r.html#cb417-1"></a>raster<span class="op">::</span><span class="kw">raster</span>(<span class="st">&quot;data/nc/wio_geostrophic_uv_july_2015.nc&quot;</span>, <span class="dt">band =</span> <span class="dv">30</span>) <span class="op">%&gt;%</span></span>
+<span id="cb417-2"><a href="working-with-raster-data-in-r.html#cb417-2"></a><span class="st">  </span>raster<span class="op">::</span><span class="kw">projectRaster</span>(<span class="dt">crs =</span> <span class="dv">4326</span>)</span></code></pre></div>
 <pre><code>class      : RasterLayer 
 dimensions : 430, 411, 176730  (nrow, ncol, ncell)
 resolution : 0.25, 0.25  (x, y)
@@ -623,8 +644,8 @@ source     : memory
 names      : Absolute.geostrophic.velocity..meridional.component 
 values     : -1.6078, 1.3798  (min, max)</code></pre>
 <p>We can reproject from longitude and latitude to UTM by using the <code>projectRaster()</code> function in the following way</p>
-<div class="sourceCode" id="cb386"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb386-1"><a href="working-with-raster-data-in-r.html#cb386-1"></a>raster<span class="op">::</span><span class="kw">raster</span>(<span class="st">&quot;data/nc/wio_geostrophic_uv_july_2015.nc&quot;</span>, <span class="dt">band =</span> <span class="dv">30</span>) <span class="op">%&gt;%</span></span>
-<span id="cb386-2"><a href="working-with-raster-data-in-r.html#cb386-2"></a><span class="st">  </span>raster<span class="op">::</span><span class="kw">projectRaster</span>(<span class="dt">crs =</span> <span class="dv">32737</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb419"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb419-1"><a href="working-with-raster-data-in-r.html#cb419-1"></a>raster<span class="op">::</span><span class="kw">raster</span>(<span class="st">&quot;data/nc/wio_geostrophic_uv_july_2015.nc&quot;</span>, <span class="dt">band =</span> <span class="dv">30</span>) <span class="op">%&gt;%</span></span>
+<span id="cb419-2"><a href="working-with-raster-data-in-r.html#cb419-2"></a><span class="st">  </span>raster<span class="op">::</span><span class="kw">projectRaster</span>(<span class="dt">crs =</span> <span class="dv">32737</span>)</span></code></pre></div>
 <pre><code>class      : RasterLayer 
 dimensions : 598, 672, 401856  (nrow, ncol, ncell)
 resolution : 28500, 30700  (x, y)
@@ -633,11 +654,11 @@ crs        : +proj=utm +zone=37 +south +datum=WGS84 +units=m +no_defs
 source     : memory
 names      : Absolute.geostrophic.velocity..meridional.component 
 values     : -1.575943, 1.339576  (min, max)</code></pre>
-<div id="reading-tiff-format" class="section level3" number="11.2.1">
-<h3><span class="header-section-number">11.2.1</span> Reading Tiff format</h3>
-<div class="sourceCode" id="cb388"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb388-1"><a href="working-with-raster-data-in-r.html#cb388-1"></a>rain =<span class="st"> </span>raster<span class="op">::</span><span class="kw">raster</span>(<span class="st">&quot;data/raster/wc2.1_10m_prec/wc2.1_10m_prec_01.tif&quot;</span>)</span>
-<span id="cb388-2"><a href="working-with-raster-data-in-r.html#cb388-2"></a></span>
-<span id="cb388-3"><a href="working-with-raster-data-in-r.html#cb388-3"></a>rain</span></code></pre></div>
+<div id="reading-tiff-format" class="section level3" number="12.2.1">
+<h3><span class="header-section-number">12.2.1</span> Reading Tiff format</h3>
+<div class="sourceCode" id="cb421"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb421-1"><a href="working-with-raster-data-in-r.html#cb421-1"></a>rain =<span class="st"> </span>raster<span class="op">::</span><span class="kw">raster</span>(<span class="st">&quot;data/raster/wc2.1_10m_prec/wc2.1_10m_prec_01.tif&quot;</span>)</span>
+<span id="cb421-2"><a href="working-with-raster-data-in-r.html#cb421-2"></a></span>
+<span id="cb421-3"><a href="working-with-raster-data-in-r.html#cb421-3"></a>rain</span></code></pre></div>
 <pre><code>class      : RasterLayer 
 dimensions : 1080, 2160, 2332800  (nrow, ncol, ncell)
 resolution : 0.1666667, 0.1666667  (x, y)
@@ -646,99 +667,99 @@ crs        : +proj=longlat +datum=WGS84 +no_defs
 source     : E:/bookdown/geoMarine/data/raster/wc2.1_10m_prec/wc2.1_10m_prec_01.tif 
 names      : wc2.1_10m_prec_01 
 values     : 0, 908  (min, max)</code></pre>
-<div id="manipulating-raster" class="section level4" number="11.2.1.1">
-<h4><span class="header-section-number">11.2.1.1</span> Manipulating raster</h4>
-<div class="sourceCode" id="cb390"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb390-1"><a href="working-with-raster-data-in-r.html#cb390-1"></a>jan =<span class="st"> </span>raster<span class="op">::</span><span class="kw">raster</span>(<span class="st">&quot;data/raster/wc2.1_10m_tavg/wc2.1_10m_tavg_01.tif&quot;</span>)</span>
-<span id="cb390-2"><a href="working-with-raster-data-in-r.html#cb390-2"></a></span>
-<span id="cb390-3"><a href="working-with-raster-data-in-r.html#cb390-3"></a>jan <span class="op">%&gt;%</span><span class="st"> </span>raster<span class="op">::</span><span class="kw">plot</span>()</span></code></pre></div>
-<p><img src="geoMarine_files/figure-html/unnamed-chunk-274-1.png" width="672" /></p>
-<div class="sourceCode" id="cb391"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb391-1"><a href="working-with-raster-data-in-r.html#cb391-1"></a>jul =<span class="st"> </span>raster<span class="op">::</span><span class="kw">raster</span>(<span class="st">&quot;data/raster/wc2.1_10m_tavg/wc2.1_10m_tavg_07.tif&quot;</span>)</span>
-<span id="cb391-2"><a href="working-with-raster-data-in-r.html#cb391-2"></a></span>
-<span id="cb391-3"><a href="working-with-raster-data-in-r.html#cb391-3"></a>jul <span class="op">%&gt;%</span><span class="st"> </span>raster<span class="op">::</span><span class="kw">plot</span>()</span></code></pre></div>
-<p><img src="geoMarine_files/figure-html/unnamed-chunk-275-1.png" width="672" /></p>
-<div class="sourceCode" id="cb392"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb392-1"><a href="working-with-raster-data-in-r.html#cb392-1"></a>dec =<span class="st"> </span>raster<span class="op">::</span><span class="kw">raster</span>(<span class="st">&quot;data/raster/wc2.1_10m_tavg/wc2.1_10m_tavg_12.tif&quot;</span>)</span>
-<span id="cb392-2"><a href="working-with-raster-data-in-r.html#cb392-2"></a></span>
-<span id="cb392-3"><a href="working-with-raster-data-in-r.html#cb392-3"></a>dec <span class="op">%&gt;%</span><span class="st"> </span>raster<span class="op">::</span><span class="kw">plot</span>()</span></code></pre></div>
-<p><img src="geoMarine_files/figure-html/unnamed-chunk-276-1.png" width="672" /></p>
-<div class="sourceCode" id="cb393"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb393-1"><a href="working-with-raster-data-in-r.html#cb393-1"></a>temp.diff =<span class="st"> </span>jan<span class="op">-</span>jul</span>
-<span id="cb393-2"><a href="working-with-raster-data-in-r.html#cb393-2"></a></span>
-<span id="cb393-3"><a href="working-with-raster-data-in-r.html#cb393-3"></a>temp.diff <span class="op">%&gt;%</span><span class="st"> </span>raster<span class="op">::</span><span class="kw">plot</span>()</span></code></pre></div>
-<p><img src="geoMarine_files/figure-html/unnamed-chunk-277-1.png" width="672" /></p>
-<div class="sourceCode" id="cb394"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb394-1"><a href="working-with-raster-data-in-r.html#cb394-1"></a>temp.diff =<span class="st"> </span>dec<span class="op">-</span>jul</span>
-<span id="cb394-2"><a href="working-with-raster-data-in-r.html#cb394-2"></a></span>
-<span id="cb394-3"><a href="working-with-raster-data-in-r.html#cb394-3"></a>temp.diff <span class="op">%&gt;%</span><span class="st"> </span>raster<span class="op">::</span><span class="kw">plot</span>()</span></code></pre></div>
-<p><img src="geoMarine_files/figure-html/unnamed-chunk-278-1.png" width="672" /></p>
+<div id="manipulating-raster" class="section level4" number="12.2.1.1">
+<h4><span class="header-section-number">12.2.1.1</span> Manipulating raster</h4>
+<div class="sourceCode" id="cb423"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb423-1"><a href="working-with-raster-data-in-r.html#cb423-1"></a>jan =<span class="st"> </span>raster<span class="op">::</span><span class="kw">raster</span>(<span class="st">&quot;data/raster/wc2.1_10m_tavg/wc2.1_10m_tavg_01.tif&quot;</span>)</span>
+<span id="cb423-2"><a href="working-with-raster-data-in-r.html#cb423-2"></a></span>
+<span id="cb423-3"><a href="working-with-raster-data-in-r.html#cb423-3"></a>jan <span class="op">%&gt;%</span><span class="st"> </span>raster<span class="op">::</span><span class="kw">plot</span>()</span></code></pre></div>
+<p><img src="geoMarine_files/figure-html/unnamed-chunk-309-1.png" width="672" /></p>
+<div class="sourceCode" id="cb424"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb424-1"><a href="working-with-raster-data-in-r.html#cb424-1"></a>jul =<span class="st"> </span>raster<span class="op">::</span><span class="kw">raster</span>(<span class="st">&quot;data/raster/wc2.1_10m_tavg/wc2.1_10m_tavg_07.tif&quot;</span>)</span>
+<span id="cb424-2"><a href="working-with-raster-data-in-r.html#cb424-2"></a></span>
+<span id="cb424-3"><a href="working-with-raster-data-in-r.html#cb424-3"></a>jul <span class="op">%&gt;%</span><span class="st"> </span>raster<span class="op">::</span><span class="kw">plot</span>()</span></code></pre></div>
+<p><img src="geoMarine_files/figure-html/unnamed-chunk-310-1.png" width="672" /></p>
+<div class="sourceCode" id="cb425"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb425-1"><a href="working-with-raster-data-in-r.html#cb425-1"></a>dec =<span class="st"> </span>raster<span class="op">::</span><span class="kw">raster</span>(<span class="st">&quot;data/raster/wc2.1_10m_tavg/wc2.1_10m_tavg_12.tif&quot;</span>)</span>
+<span id="cb425-2"><a href="working-with-raster-data-in-r.html#cb425-2"></a></span>
+<span id="cb425-3"><a href="working-with-raster-data-in-r.html#cb425-3"></a>dec <span class="op">%&gt;%</span><span class="st"> </span>raster<span class="op">::</span><span class="kw">plot</span>()</span></code></pre></div>
+<p><img src="geoMarine_files/figure-html/unnamed-chunk-311-1.png" width="672" /></p>
+<div class="sourceCode" id="cb426"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb426-1"><a href="working-with-raster-data-in-r.html#cb426-1"></a>temp.diff =<span class="st"> </span>jan<span class="op">-</span>jul</span>
+<span id="cb426-2"><a href="working-with-raster-data-in-r.html#cb426-2"></a></span>
+<span id="cb426-3"><a href="working-with-raster-data-in-r.html#cb426-3"></a>temp.diff <span class="op">%&gt;%</span><span class="st"> </span>raster<span class="op">::</span><span class="kw">plot</span>()</span></code></pre></div>
+<p><img src="geoMarine_files/figure-html/unnamed-chunk-312-1.png" width="672" /></p>
+<div class="sourceCode" id="cb427"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb427-1"><a href="working-with-raster-data-in-r.html#cb427-1"></a>temp.diff =<span class="st"> </span>dec<span class="op">-</span>jul</span>
+<span id="cb427-2"><a href="working-with-raster-data-in-r.html#cb427-2"></a></span>
+<span id="cb427-3"><a href="working-with-raster-data-in-r.html#cb427-3"></a>temp.diff <span class="op">%&gt;%</span><span class="st"> </span>raster<span class="op">::</span><span class="kw">plot</span>()</span></code></pre></div>
+<p><img src="geoMarine_files/figure-html/unnamed-chunk-313-1.png" width="672" /></p>
 </div>
 </div>
-<div id="reclassifying-rasters" class="section level3" number="11.2.2">
-<h3><span class="header-section-number">11.2.2</span> Reclassifying rasters</h3>
-<div class="sourceCode" id="cb395"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb395-1"><a href="working-with-raster-data-in-r.html#cb395-1"></a>dec.group =<span class="st"> </span>dec <span class="op">%&gt;%</span><span class="st"> </span></span>
-<span id="cb395-2"><a href="working-with-raster-data-in-r.html#cb395-2"></a><span class="st">  </span>raster<span class="op">::</span><span class="kw">reclassify</span>(<span class="dt">rcl =</span> <span class="kw">seq</span>(<span class="op">-</span><span class="dv">46</span>,<span class="dv">35</span>,<span class="dv">10</span>))</span>
-<span id="cb395-3"><a href="working-with-raster-data-in-r.html#cb395-3"></a></span>
-<span id="cb395-4"><a href="working-with-raster-data-in-r.html#cb395-4"></a></span>
-<span id="cb395-5"><a href="working-with-raster-data-in-r.html#cb395-5"></a>dec.group <span class="op">%&gt;%</span><span class="st"> </span>raster<span class="op">::</span><span class="kw">plot</span>()</span></code></pre></div>
-<p><img src="geoMarine_files/figure-html/unnamed-chunk-279-1.png" width="672" /></p>
+<div id="reclassifying-rasters" class="section level3" number="12.2.2">
+<h3><span class="header-section-number">12.2.2</span> Reclassifying rasters</h3>
+<div class="sourceCode" id="cb428"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb428-1"><a href="working-with-raster-data-in-r.html#cb428-1"></a>dec.group =<span class="st"> </span>dec <span class="op">%&gt;%</span><span class="st"> </span></span>
+<span id="cb428-2"><a href="working-with-raster-data-in-r.html#cb428-2"></a><span class="st">  </span>raster<span class="op">::</span><span class="kw">reclassify</span>(<span class="dt">rcl =</span> <span class="kw">seq</span>(<span class="op">-</span><span class="dv">46</span>,<span class="dv">35</span>,<span class="dv">10</span>))</span>
+<span id="cb428-3"><a href="working-with-raster-data-in-r.html#cb428-3"></a></span>
+<span id="cb428-4"><a href="working-with-raster-data-in-r.html#cb428-4"></a></span>
+<span id="cb428-5"><a href="working-with-raster-data-in-r.html#cb428-5"></a>dec.group <span class="op">%&gt;%</span><span class="st"> </span>raster<span class="op">::</span><span class="kw">plot</span>()</span></code></pre></div>
+<p><img src="geoMarine_files/figure-html/unnamed-chunk-314-1.png" width="672" /></p>
 </div>
-<div id="mapping-raster" class="section level3" number="11.2.3">
-<h3><span class="header-section-number">11.2.3</span> Mapping raster</h3>
-<div id="land-surface-temperature" class="section level4" number="11.2.3.1">
-<h4><span class="header-section-number">11.2.3.1</span> Land surface temperature</h4>
-<div class="sourceCode" id="cb396"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb396-1"><a href="working-with-raster-data-in-r.html#cb396-1"></a>jan.temperature =<span class="st"> </span>stars<span class="op">::</span><span class="kw">read_stars</span>(<span class="st">&quot;data/raster/wc2.1_10m_tavg/wc2.1_10m_tavg_01.tif&quot;</span>)</span>
-<span id="cb396-2"><a href="working-with-raster-data-in-r.html#cb396-2"></a></span>
-<span id="cb396-3"><a href="working-with-raster-data-in-r.html#cb396-3"></a><span class="kw">ggplot</span>() <span class="op">+</span></span>
-<span id="cb396-4"><a href="working-with-raster-data-in-r.html#cb396-4"></a><span class="st">  </span>stars<span class="op">::</span><span class="kw">geom_stars</span>(<span class="dt">data =</span> jan.temperature)<span class="op">+</span></span>
-<span id="cb396-5"><a href="working-with-raster-data-in-r.html#cb396-5"></a><span class="st">  </span><span class="kw">coord_cartesian</span>(<span class="dt">expand =</span> <span class="ot">FALSE</span>)<span class="op">+</span></span>
-<span id="cb396-6"><a href="working-with-raster-data-in-r.html#cb396-6"></a><span class="st">  </span><span class="kw">scale_fill_gradientn</span>(<span class="dt">colours =</span> oce<span class="op">::</span><span class="kw">oce.colors9A</span>(<span class="dv">120</span>), <span class="dt">na.value =</span> <span class="st">&quot;white&quot;</span>)</span></code></pre></div>
-<p><img src="geoMarine_files/figure-html/unnamed-chunk-280-1.png" width="672" /></p>
+<div id="mapping-raster" class="section level3" number="12.2.3">
+<h3><span class="header-section-number">12.2.3</span> Mapping raster</h3>
+<div id="land-surface-temperature" class="section level4" number="12.2.3.1">
+<h4><span class="header-section-number">12.2.3.1</span> Land surface temperature</h4>
+<div class="sourceCode" id="cb429"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb429-1"><a href="working-with-raster-data-in-r.html#cb429-1"></a>jan.temperature =<span class="st"> </span>stars<span class="op">::</span><span class="kw">read_stars</span>(<span class="st">&quot;data/raster/wc2.1_10m_tavg/wc2.1_10m_tavg_01.tif&quot;</span>)</span>
+<span id="cb429-2"><a href="working-with-raster-data-in-r.html#cb429-2"></a></span>
+<span id="cb429-3"><a href="working-with-raster-data-in-r.html#cb429-3"></a><span class="kw">ggplot</span>() <span class="op">+</span></span>
+<span id="cb429-4"><a href="working-with-raster-data-in-r.html#cb429-4"></a><span class="st">  </span>stars<span class="op">::</span><span class="kw">geom_stars</span>(<span class="dt">data =</span> jan.temperature)<span class="op">+</span></span>
+<span id="cb429-5"><a href="working-with-raster-data-in-r.html#cb429-5"></a><span class="st">  </span><span class="kw">coord_cartesian</span>(<span class="dt">expand =</span> <span class="ot">FALSE</span>)<span class="op">+</span></span>
+<span id="cb429-6"><a href="working-with-raster-data-in-r.html#cb429-6"></a><span class="st">  </span><span class="kw">scale_fill_gradientn</span>(<span class="dt">colours =</span> oce<span class="op">::</span><span class="kw">oce.colors9A</span>(<span class="dv">120</span>), <span class="dt">na.value =</span> <span class="st">&quot;white&quot;</span>)</span></code></pre></div>
+<p><img src="geoMarine_files/figure-html/unnamed-chunk-315-1.png" width="672" /></p>
 </div>
-<div id="land-surface-wind" class="section level4" number="11.2.3.2">
-<h4><span class="header-section-number">11.2.3.2</span> Land surface wind</h4>
-<div class="sourceCode" id="cb397"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb397-1"><a href="working-with-raster-data-in-r.html#cb397-1"></a>jan.wind =<span class="st"> </span>stars<span class="op">::</span><span class="kw">read_stars</span>(<span class="st">&quot;data/raster/wc2.1_10m_wind/wc2.1_10m_wind_01.tif&quot;</span>)</span>
-<span id="cb397-2"><a href="working-with-raster-data-in-r.html#cb397-2"></a></span>
-<span id="cb397-3"><a href="working-with-raster-data-in-r.html#cb397-3"></a><span class="kw">ggplot</span>() <span class="op">+</span></span>
-<span id="cb397-4"><a href="working-with-raster-data-in-r.html#cb397-4"></a><span class="st">  </span>stars<span class="op">::</span><span class="kw">geom_stars</span>(<span class="dt">data =</span> jan.wind)<span class="op">+</span></span>
-<span id="cb397-5"><a href="working-with-raster-data-in-r.html#cb397-5"></a><span class="st">  </span><span class="kw">coord_cartesian</span>(<span class="dt">expand =</span> <span class="ot">FALSE</span>)<span class="op">+</span></span>
-<span id="cb397-6"><a href="working-with-raster-data-in-r.html#cb397-6"></a><span class="st">  </span><span class="kw">scale_fill_gradientn</span>(<span class="dt">colours =</span> oce<span class="op">::</span><span class="kw">oce.colors9A</span>(<span class="dv">120</span>), <span class="dt">na.value =</span> <span class="st">&quot;white&quot;</span>)</span></code></pre></div>
-<p><img src="geoMarine_files/figure-html/unnamed-chunk-281-1.png" width="672" /></p>
+<div id="land-surface-wind" class="section level4" number="12.2.3.2">
+<h4><span class="header-section-number">12.2.3.2</span> Land surface wind</h4>
+<div class="sourceCode" id="cb430"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb430-1"><a href="working-with-raster-data-in-r.html#cb430-1"></a>jan.wind =<span class="st"> </span>stars<span class="op">::</span><span class="kw">read_stars</span>(<span class="st">&quot;data/raster/wc2.1_10m_wind/wc2.1_10m_wind_01.tif&quot;</span>)</span>
+<span id="cb430-2"><a href="working-with-raster-data-in-r.html#cb430-2"></a></span>
+<span id="cb430-3"><a href="working-with-raster-data-in-r.html#cb430-3"></a><span class="kw">ggplot</span>() <span class="op">+</span></span>
+<span id="cb430-4"><a href="working-with-raster-data-in-r.html#cb430-4"></a><span class="st">  </span>stars<span class="op">::</span><span class="kw">geom_stars</span>(<span class="dt">data =</span> jan.wind)<span class="op">+</span></span>
+<span id="cb430-5"><a href="working-with-raster-data-in-r.html#cb430-5"></a><span class="st">  </span><span class="kw">coord_cartesian</span>(<span class="dt">expand =</span> <span class="ot">FALSE</span>)<span class="op">+</span></span>
+<span id="cb430-6"><a href="working-with-raster-data-in-r.html#cb430-6"></a><span class="st">  </span><span class="kw">scale_fill_gradientn</span>(<span class="dt">colours =</span> oce<span class="op">::</span><span class="kw">oce.colors9A</span>(<span class="dv">120</span>), <span class="dt">na.value =</span> <span class="st">&quot;white&quot;</span>)</span></code></pre></div>
+<p><img src="geoMarine_files/figure-html/unnamed-chunk-316-1.png" width="672" /></p>
 </div>
-<div id="land-surface-precipitation" class="section level4" number="11.2.3.3">
-<h4><span class="header-section-number">11.2.3.3</span> Land surface precipitation</h4>
-<div class="sourceCode" id="cb398"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb398-1"><a href="working-with-raster-data-in-r.html#cb398-1"></a>jan.rain =<span class="st"> </span>stars<span class="op">::</span><span class="kw">read_stars</span>(<span class="st">&quot;data/raster/wc2.1_10m_prec/wc2.1_10m_prec_01.tif&quot;</span>)</span>
-<span id="cb398-2"><a href="working-with-raster-data-in-r.html#cb398-2"></a></span>
-<span id="cb398-3"><a href="working-with-raster-data-in-r.html#cb398-3"></a><span class="kw">ggplot</span>() <span class="op">+</span></span>
-<span id="cb398-4"><a href="working-with-raster-data-in-r.html#cb398-4"></a><span class="st">  </span>stars<span class="op">::</span><span class="kw">geom_stars</span>(<span class="dt">data =</span> jan.rain)<span class="op">+</span></span>
-<span id="cb398-5"><a href="working-with-raster-data-in-r.html#cb398-5"></a><span class="st">  </span><span class="kw">coord_cartesian</span>(<span class="dt">expand =</span> <span class="ot">FALSE</span>)<span class="op">+</span></span>
-<span id="cb398-6"><a href="working-with-raster-data-in-r.html#cb398-6"></a><span class="st">  </span><span class="kw">scale_fill_gradientn</span>(<span class="dt">colours =</span> oce<span class="op">::</span><span class="kw">oce.colors9A</span>(<span class="dv">120</span>), <span class="dt">na.value =</span> <span class="st">&quot;white&quot;</span>)</span></code></pre></div>
-<p><img src="geoMarine_files/figure-html/unnamed-chunk-282-1.png" width="672" /></p>
+<div id="land-surface-precipitation" class="section level4" number="12.2.3.3">
+<h4><span class="header-section-number">12.2.3.3</span> Land surface precipitation</h4>
+<div class="sourceCode" id="cb431"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb431-1"><a href="working-with-raster-data-in-r.html#cb431-1"></a>jan.rain =<span class="st"> </span>stars<span class="op">::</span><span class="kw">read_stars</span>(<span class="st">&quot;data/raster/wc2.1_10m_prec/wc2.1_10m_prec_01.tif&quot;</span>)</span>
+<span id="cb431-2"><a href="working-with-raster-data-in-r.html#cb431-2"></a></span>
+<span id="cb431-3"><a href="working-with-raster-data-in-r.html#cb431-3"></a><span class="kw">ggplot</span>() <span class="op">+</span></span>
+<span id="cb431-4"><a href="working-with-raster-data-in-r.html#cb431-4"></a><span class="st">  </span>stars<span class="op">::</span><span class="kw">geom_stars</span>(<span class="dt">data =</span> jan.rain)<span class="op">+</span></span>
+<span id="cb431-5"><a href="working-with-raster-data-in-r.html#cb431-5"></a><span class="st">  </span><span class="kw">coord_cartesian</span>(<span class="dt">expand =</span> <span class="ot">FALSE</span>)<span class="op">+</span></span>
+<span id="cb431-6"><a href="working-with-raster-data-in-r.html#cb431-6"></a><span class="st">  </span><span class="kw">scale_fill_gradientn</span>(<span class="dt">colours =</span> oce<span class="op">::</span><span class="kw">oce.colors9A</span>(<span class="dv">120</span>), <span class="dt">na.value =</span> <span class="st">&quot;white&quot;</span>)</span></code></pre></div>
+<p><img src="geoMarine_files/figure-html/unnamed-chunk-317-1.png" width="672" /></p>
 </div>
-<div id="land-surface-evaporation" class="section level4" number="11.2.3.4">
-<h4><span class="header-section-number">11.2.3.4</span> Land surface evaporation</h4>
-<div class="sourceCode" id="cb399"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb399-1"><a href="working-with-raster-data-in-r.html#cb399-1"></a>jan.vapr =<span class="st"> </span>stars<span class="op">::</span><span class="kw">read_stars</span>(<span class="st">&quot;data/raster/wc2.1_10m_vapr/wc2.1_10m_vapr_01.tif&quot;</span>)</span>
-<span id="cb399-2"><a href="working-with-raster-data-in-r.html#cb399-2"></a></span>
-<span id="cb399-3"><a href="working-with-raster-data-in-r.html#cb399-3"></a><span class="kw">ggplot</span>() <span class="op">+</span></span>
-<span id="cb399-4"><a href="working-with-raster-data-in-r.html#cb399-4"></a><span class="st">  </span>stars<span class="op">::</span><span class="kw">geom_stars</span>(<span class="dt">data =</span> jan.vapr)<span class="op">+</span></span>
-<span id="cb399-5"><a href="working-with-raster-data-in-r.html#cb399-5"></a><span class="st">  </span><span class="kw">coord_cartesian</span>(<span class="dt">expand =</span> <span class="ot">FALSE</span>)<span class="op">+</span></span>
-<span id="cb399-6"><a href="working-with-raster-data-in-r.html#cb399-6"></a><span class="st">  </span><span class="kw">scale_fill_gradientn</span>(<span class="dt">colours =</span> oce<span class="op">::</span><span class="kw">oce.colors9A</span>(<span class="dv">120</span>), <span class="dt">na.value =</span> <span class="st">&quot;white&quot;</span>)</span></code></pre></div>
-<p><img src="geoMarine_files/figure-html/unnamed-chunk-283-1.png" width="672" /></p>
+<div id="land-surface-evaporation" class="section level4" number="12.2.3.4">
+<h4><span class="header-section-number">12.2.3.4</span> Land surface evaporation</h4>
+<div class="sourceCode" id="cb432"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb432-1"><a href="working-with-raster-data-in-r.html#cb432-1"></a>jan.vapr =<span class="st"> </span>stars<span class="op">::</span><span class="kw">read_stars</span>(<span class="st">&quot;data/raster/wc2.1_10m_vapr/wc2.1_10m_vapr_01.tif&quot;</span>)</span>
+<span id="cb432-2"><a href="working-with-raster-data-in-r.html#cb432-2"></a></span>
+<span id="cb432-3"><a href="working-with-raster-data-in-r.html#cb432-3"></a><span class="kw">ggplot</span>() <span class="op">+</span></span>
+<span id="cb432-4"><a href="working-with-raster-data-in-r.html#cb432-4"></a><span class="st">  </span>stars<span class="op">::</span><span class="kw">geom_stars</span>(<span class="dt">data =</span> jan.vapr)<span class="op">+</span></span>
+<span id="cb432-5"><a href="working-with-raster-data-in-r.html#cb432-5"></a><span class="st">  </span><span class="kw">coord_cartesian</span>(<span class="dt">expand =</span> <span class="ot">FALSE</span>)<span class="op">+</span></span>
+<span id="cb432-6"><a href="working-with-raster-data-in-r.html#cb432-6"></a><span class="st">  </span><span class="kw">scale_fill_gradientn</span>(<span class="dt">colours =</span> oce<span class="op">::</span><span class="kw">oce.colors9A</span>(<span class="dv">120</span>), <span class="dt">na.value =</span> <span class="st">&quot;white&quot;</span>)</span></code></pre></div>
+<p><img src="geoMarine_files/figure-html/unnamed-chunk-318-1.png" width="672" /></p>
 </div>
-<div id="solar-radiation" class="section level4" number="11.2.3.5">
-<h4><span class="header-section-number">11.2.3.5</span> Solar radiation</h4>
-<div class="sourceCode" id="cb400"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb400-1"><a href="working-with-raster-data-in-r.html#cb400-1"></a>jan.srad =<span class="st"> </span>stars<span class="op">::</span><span class="kw">read_stars</span>(<span class="st">&quot;data/raster/wc2.1_10m_srad/wc2.1_10m_srad_01.tif&quot;</span>)</span>
-<span id="cb400-2"><a href="working-with-raster-data-in-r.html#cb400-2"></a></span>
-<span id="cb400-3"><a href="working-with-raster-data-in-r.html#cb400-3"></a><span class="kw">ggplot</span>() <span class="op">+</span></span>
-<span id="cb400-4"><a href="working-with-raster-data-in-r.html#cb400-4"></a><span class="st">  </span>stars<span class="op">::</span><span class="kw">geom_stars</span>(<span class="dt">data =</span> jan.srad)<span class="op">+</span></span>
-<span id="cb400-5"><a href="working-with-raster-data-in-r.html#cb400-5"></a><span class="st">  </span><span class="kw">coord_cartesian</span>(<span class="dt">expand =</span> <span class="ot">FALSE</span>)<span class="op">+</span></span>
-<span id="cb400-6"><a href="working-with-raster-data-in-r.html#cb400-6"></a><span class="st">  </span><span class="kw">scale_fill_gradientn</span>(<span class="dt">colours =</span> oce<span class="op">::</span><span class="kw">oce.colors9A</span>(<span class="dv">120</span>), <span class="dt">na.value =</span> <span class="st">&quot;white&quot;</span>)</span></code></pre></div>
-<p><img src="geoMarine_files/figure-html/unnamed-chunk-284-1.png" width="672" /></p>
+<div id="solar-radiation" class="section level4" number="12.2.3.5">
+<h4><span class="header-section-number">12.2.3.5</span> Solar radiation</h4>
+<div class="sourceCode" id="cb433"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb433-1"><a href="working-with-raster-data-in-r.html#cb433-1"></a>jan.srad =<span class="st"> </span>stars<span class="op">::</span><span class="kw">read_stars</span>(<span class="st">&quot;data/raster/wc2.1_10m_srad/wc2.1_10m_srad_01.tif&quot;</span>)</span>
+<span id="cb433-2"><a href="working-with-raster-data-in-r.html#cb433-2"></a></span>
+<span id="cb433-3"><a href="working-with-raster-data-in-r.html#cb433-3"></a><span class="kw">ggplot</span>() <span class="op">+</span></span>
+<span id="cb433-4"><a href="working-with-raster-data-in-r.html#cb433-4"></a><span class="st">  </span>stars<span class="op">::</span><span class="kw">geom_stars</span>(<span class="dt">data =</span> jan.srad)<span class="op">+</span></span>
+<span id="cb433-5"><a href="working-with-raster-data-in-r.html#cb433-5"></a><span class="st">  </span><span class="kw">coord_cartesian</span>(<span class="dt">expand =</span> <span class="ot">FALSE</span>)<span class="op">+</span></span>
+<span id="cb433-6"><a href="working-with-raster-data-in-r.html#cb433-6"></a><span class="st">  </span><span class="kw">scale_fill_gradientn</span>(<span class="dt">colours =</span> oce<span class="op">::</span><span class="kw">oce.colors9A</span>(<span class="dv">120</span>), <span class="dt">na.value =</span> <span class="st">&quot;white&quot;</span>)</span></code></pre></div>
+<p><img src="geoMarine_files/figure-html/unnamed-chunk-319-1.png" width="672" /></p>
 </div>
 </div>
 </div>
-<div id="summary-3" class="section level2" number="11.3">
-<h2><span class="header-section-number">11.3</span> Summary</h2>
+<div id="summary-3" class="section level2" number="12.3">
+<h2><span class="header-section-number">12.3</span> Summary</h2>
 <p>In this chapter, we learned how to load, manipulate, and analyze raster data. The things we have learned here will work as the cornerstone for doing complicated raster analysis tasks, such as applying machine learning algorithms, as we’ll be discussing in later chapters. We learned how to read and load raster data using the raster() function from the raster package in R. For multispectral images, such as Landsat images, we have learned how</p>
 </div>
-<div id="questions-2" class="section level2" number="11.4">
-<h2><span class="header-section-number">11.4</span> Questions</h2>
+<div id="questions-2" class="section level2" number="12.4">
+<h2><span class="header-section-number">12.4</span> Questions</h2>
 <p>Now that you’ve completed this chapter, you should be ready to answer the following questions:</p>
 <ol style="list-style-type: decimal">
 <li>How do you load raster data in R?</li>
